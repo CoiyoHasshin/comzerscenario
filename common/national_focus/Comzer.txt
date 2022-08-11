@@ -32,15 +32,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_19
-		text = COM_Union_Soviet_Union
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		cost = 10.00
-		x = 18
-		y = 5
-
-	}
-	focus = {
 		id = newfocus_4
 		text = COM_return_to_socialism
 		icon = GFX_focus_generic_soviet_politics
@@ -218,6 +209,52 @@ focus_tree = {
 		}
 		x = 14
 		y = 4
+
+	}
+	focus = {
+		id = newfocus_21
+		text = COM_Union_France
+		icon = GFX_focus_chi_reach_out_to_france
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_10
+		}
+		mutually_exclusive = {
+			focus = newfocus_20
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_20
+		text = COM_Union_Great_Britain
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_10
+		}
+		mutually_exclusive = {
+			focus = newfocus_19
+			focus = newfocus_21
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_19
+		text = COM_Union_Soviet_Union
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_10
+		}
+		mutually_exclusive = {
+			focus = newfocus_20
+		}
+		x = 20
+		y = 5
 
 	}
 	focus = {
