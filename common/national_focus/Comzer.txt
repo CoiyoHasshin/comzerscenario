@@ -23,7 +23,7 @@ focus_tree = {
 		text = COM_domestic_restructuring
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 10.00
-		x = 21
+		x = 30
 		y = 0
 			complate = reward
 			= = {
@@ -42,7 +42,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = newfocus_2
 		}
-		x = 5
+		x = 14
 		y = 1
 
 	}
@@ -54,7 +54,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_4
 		}
-		x = 1
+		x = 10
 		y = 2
 
 	}
@@ -66,8 +66,44 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_7
 		}
-		x = 1
+		x = 10
 		y = 4
+
+	}
+	focus = {
+		id = newfocus_18
+		text = COM_Systematization_of_Coyerism
+		icon = GFX_focus_SOV_stalins_cult_of_personality
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_17
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_23
+		text = COM_Formation_the_Thought_OC
+		icon = GFX_focus_generic_military_mission
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_18
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_22
+		text = COM_Sovietization_of_Komzar
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_18
+		}
+		x = 12
+		y = 6
 
 	}
 	focus = {
@@ -78,7 +114,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_4
 		}
-		x = 5
+		x = 14
 		y = 2
 
 	}
@@ -90,7 +126,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_6
 		}
-		x = 4
+		x = 13
 		y = 3
 
 	}
@@ -102,7 +138,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_6
 		}
-		x = 6
+		x = 15
 		y = 3
 
 	}
@@ -117,8 +153,20 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_15
 		}
-		x = 5
+		x = 14
 		y = 4
+
+	}
+	focus = {
+		id = newfocus_24
+		text = COM_Adoption_of_Trotskyism
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_16
+		}
+		x = 14
+		y = 6
 
 	}
 	focus = {
@@ -129,7 +177,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_4
 		}
-		x = 11
+		x = 20
 		y = 2
 
 	}
@@ -144,7 +192,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = newfocus_8
 		}
-		x = 10
+		x = 19
 		y = 3
 
 	}
@@ -156,7 +204,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_9
 		}
-		x = 8
+		x = 17
 		y = 4
 
 	}
@@ -168,7 +216,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_9
 		}
-		x = 10
+		x = 19
 		y = 4
 
 	}
@@ -183,7 +231,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = newfocus_9
 		}
-		x = 12
+		x = 21
 		y = 3
 
 	}
@@ -195,7 +243,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_8
 		}
-		x = 12
+		x = 21
 		y = 4
 
 	}
@@ -207,7 +255,7 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_8
 		}
-		x = 14
+		x = 23
 		y = 4
 
 	}
@@ -222,7 +270,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = newfocus_20
 		}
-		x = 14
+		x = 23
 		y = 5
 
 	}
@@ -238,7 +286,7 @@ focus_tree = {
 			focus = newfocus_19
 			focus = newfocus_21
 		}
-		x = 17
+		x = 26
 		y = 5
 
 	}
@@ -253,7 +301,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = newfocus_20
 		}
-		x = 20
+		x = 29
 		y = 5
 
 	}
@@ -269,7 +317,7 @@ focus_tree = {
 			focus = newfocus_3
 			focus = newfocus_4
 		}
-		x = 21
+		x = 30
 		y = 1
 
 	}
@@ -284,20 +332,21 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = newfocus_2
 		}
-		x = 32
+		x = 37
 		y = 1
 
 	}
 	focus = {
-		id = newfocus_18
-		text = COM_Systematization_of_Coyerism
-		icon = GFX_focus_SOV_stalins_cult_of_personality
+		id = newfocus_25
+		text = COM_Establishment _the_NPA
+		icon = GFX_focus_generic_manpower
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_17
+			focus = newfocus_24
+			focus = newfocus_22
 		}
-		x = 1
-		y = 6
+		x = 13
+		y = 8
 
 	}
 }

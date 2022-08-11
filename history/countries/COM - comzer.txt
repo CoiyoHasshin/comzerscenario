@@ -38,69 +38,90 @@ set_politics = {
 
 set_popularities = {
 	democratic = 40
-	fascism = 10
+	fascism = 5
 	communism = 10
 	neutrality = 5
-	statism = 10
+	statism = 5
 	syndicalism = 5
 	conservatism = 10
-	revolutionarism = 10
+	revolutionarism = 20
 }
 
 create_country_leader = {
 	name = "Kyosuke Munonov"
 	desc = "POLITICS_Kyosuke_Munonov_DESC"
-	picture = "CC.dds"
+	picture = "KM.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+		reluctant_interventionist defeatist
+	}
 }
 
 create_country_leader = {
 	name = "Dmitry Kolganov"
 	desc = "POLITICS_Dmitry_Kolganov_DESC"
-	picture = "CC.dds"
+	picture = "DK.dds"
 	expire = "1977.6.1"
 	ideology = fascism_ideology
+	traits = {
+		autocratic_imperialist
+	}
 }
 
 create_country_leader = {
 	name = "Azulet Kairov"
 	desc = "POLITICS_Azulet_Kairov_DESC"
-	picture = "CC.dds"
+	picture = "AK.dds"
 	expire = "1988.5.1"
 	ideology = marxism
+	traits = {
+		triumphant_revolutionary
+	}
 }
 
 create_country_leader = {
 	name = "Raiser Yoshihikopf"
 	desc = "POLITICS_Raiser_Yoshihikopf_DESC"
-	picture = "CC.dds"
+	picture = "RY.dds"
 	expire = "1949.1.1"
 	ideology = moderatism
+	traits = {
+		dealbroker
+	}
 }
 
 create_country_leader = {
 	name = "Alexeyevna Slavanovaya"
 	desc = "POLITICS_Alexeyevna_Slavanovaya_DESC"
-	picture = "CC.dds"
+	picture = "AS.dds"
 	expire = "1999.2.1"
 	ideology = bigstatism
+	traits = {
+		great_war_hero dictator
+	}
 }
 
 create_country_leader = {
 	name = "Mailaki Komunzar"
 	desc = "POLITICS_Mailaki_Komunzar_DESC"
-	picture = "CC.dds"
+	picture = "MK2.dds"
 	expire = "2000.1.1"
 	ideology = Unionism
+	traits = {
+		militant_socialist
+	}
 }
 
 create_country_leader = {
 	name = "Peter Khirookiski"
 	desc = "POLITICS_Peter_Khirookiski_DESC"
-	picture = "CC.dds"
+	picture = "PK.dds"
 	expire = "2000.3.1"
-	ideology = conservative
+	ideology = conservatives
+	traits = {
+	conservative_grandee
+	}
 }
 
 create_country_leader = {
@@ -109,4 +130,8 @@ create_country_leader = {
 	picture = "CC.dds"
 	expire = "2000.1.2"
 	ideology = Newrevolism
+	traits = {
+		el_jefe_maximo
+	}
 }
+
