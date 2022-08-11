@@ -37,75 +37,75 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 65
-	fascism = 5
-	communism = 5
+	democratic = 40
+	fascism = 10
+	communism = 10
 	neutrality = 5
-	statism = 5
+	statism = 10
 	syndicalism = 5
-	conservatism = 5
-	revolutionarism = 5
+	conservatism = 10
+	revolutionarism = 10
 }
 
 create_country_leader = {
-	name = "Coiyr Comzer"
-	desc = "POLITICS_Peter_Khirookiski_DESC"
+	name = "Kyosuke Munonov"
+	desc = "POLITICS_Kyosuke_Munonov_DESC"
 	picture = "CC.dds"
 	expire = "1965.1.1"
 	ideology = democratic
 }
 
 create_country_leader = {
-	name = "aaaaaaaaaaa"
-	desc = "POLITICS_a_DESC"
+	name = "Dmitry Kolganov"
+	desc = "POLITICS_Dmitry_Kolganov_DESC"
 	picture = "CC.dds"
 	expire = "1977.6.1"
 	ideology = fascism_ideology
 }
 
 create_country_leader = {
-	name = "bbbbbbbbbbbbbb"
-	desc = "POLITICS_b_DESC"
+	name = "Azulet Kairov"
+	desc = "POLITICS_Azulet_Kairov_DESC"
 	picture = "CC.dds"
 	expire = "1988.5.1"
 	ideology = communism
 }
 
 create_country_leader = {
-	name = "cccccccccccccc"
-	desc = "POLITICS_c_DESC"
+	name = "Raiser Yoshihikopf"
+	desc = "POLITICS_Raiser_Yoshihikopf_DESC"
 	picture = "CC.dds"
 	expire = "1949.1.1"
 	ideology = neutrality
 }
 
 create_country_leader = {
-	name = "ddddddddddddddd"
-	desc = "POLITICS_d_DESC"
+	name = "Alexeyevna Slavanovaya"
+	desc = "POLITICS_Alexeyevna_Slavanovaya_DESC"
 	picture = "CC.dds"
 	expire = "1999.2.1"
 	ideology = statism
 }
 
 create_country_leader = {
-	name = "eeeeeeeeeeeeeee"
-	desc = "POLITICS_e_DESC"
+	name = "Mailaki Komunzar"
+	desc = "POLITICS_Mailaki_Komunzar_DESC"
 	picture = "CC.dds"
 	expire = "2000.1.1"
 	ideology = syndicalism
 }
 
 create_country_leader = {
-	name = "Coiyr Comzer"
-	desc = "POLITICS_f_DESC"
+	name = "Peter Khirookiski"
+	desc = "POLITICS_Peter_Khirookiski_DESC"
 	picture = "CC.dds"
 	expire = "2000.3.1"
 	ideology = conservatism
 }
 
 create_country_leader = {
-	name = "gggggggggggggg"
-	desc = "POLITICS_g_DESC"
+	name = "Coiyr Comzer"
+	desc = "POLITICS_Coiyr_Comzer_DESC"
 	picture = "CC.dds"
 	expire = "2000.1.2"
 	ideology = revolutionarism
