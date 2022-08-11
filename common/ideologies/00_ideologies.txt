@@ -236,7 +236,7 @@ ideologies = {
 	statism = {
 	
 		types = {
-
+			grobal_statism
         }
 
 		dynamic_faction_names = {
@@ -268,7 +268,7 @@ ideologies = {
     
     syndicalism = {
 		types = {
-
+			Old_syndicalism
 		}
 		dynamic_faction_names = {
 		}
@@ -295,7 +295,7 @@ ideologies = {
     
     conservatism = {
         types = {
-
+			conservatism_ideology
         }
         dynamic_faction_names = {
         }
@@ -322,7 +322,7 @@ ideologies = {
 
     revolutionarism = {
         types = {
-			
+			New_revolutinarism
         }
      dynamic_faction_names = {
      }
