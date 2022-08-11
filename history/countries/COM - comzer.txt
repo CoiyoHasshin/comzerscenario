@@ -29,6 +29,11 @@ set_technology = {
 	CAS1 = 1
 }
 
+add_ideas = {
+	comzer_com_industry_problem
+	comzer_com_army_floo
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.5.17"

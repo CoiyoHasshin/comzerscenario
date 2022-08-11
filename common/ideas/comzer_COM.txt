@@ -1,0 +1,40 @@
+ideas {
+    country = {
+        comzer_com_industry_problem = {
+            
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            
+            allowed_civil_war = {
+                always = no
+            }
+            removal_cost = -1
+            picture = generic_production_bonus
+            modifier = {
+                industrial_capacity_factory = 0.2
+                consumer_goods_factor = 0.1
+            }
+        }
+    }
+
+    country = {
+        comzer_com_army_floo = {
+
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+            removal_cost = -1
+            picture = generic_manpower_bonus
+            modifier = {
+                conscription = 0.01
+            }
+        }
+    }
+}

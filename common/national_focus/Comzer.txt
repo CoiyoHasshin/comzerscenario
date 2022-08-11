@@ -338,7 +338,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_25
-		text = COM_Establishment _the_NPA
+		text = COM_Establishment_the_NPA
 		icon = GFX_focus_generic_manpower
 		cost = 10.00
 		prerequisite = {
