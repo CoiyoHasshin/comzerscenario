@@ -32,6 +32,15 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_19
+		text = COM_Union_Soviet_Union
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10.00
+		x = 18
+		y = 5
+
+	}
+	focus = {
 		id = newfocus_4
 		text = COM_return_to_socialism
 		icon = GFX_focus_generic_soviet_politics
@@ -54,8 +63,20 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_4
 		}
-		x = 2
+		x = 1
 		y = 2
+
+	}
+	focus = {
+		id = newfocus_17
+		text = COM_Coiyr_sect2
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_7
+		}
+		x = 1
+		y = 4
 
 	}
 	focus = {
@@ -68,6 +89,45 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
+
+	}
+	focus = {
+		id = newfocus_15
+		text = COM_Conservative_left_wing
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_6
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_14
+		text = COM_confederation_of_SP
+		icon = GFX_goal_molotov_ribbentrop_pact
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_6
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_16
+		text = COM_revolutionary_resurgence
+		icon = GFX_goal_generic_war_with_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_14
+		}
+		prerequisite = {
+			focus = newfocus_15
+		}
+		x = 5
+		y = 4
 
 	}
 	focus = {
@@ -98,6 +158,30 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_13
+		text = COM_Spread_of_vodkatism
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_9
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_12
+		text = COM_PO_bombing_plan
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_9
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
 		id = newfocus_8
 		text = COM_CoiyrSect
 		icon = GFX_focus_LAT_renew_kviesis_term
@@ -110,6 +194,30 @@ focus_tree = {
 		}
 		x = 12
 		y = 3
+
+	}
+	focus = {
+		id = newfocus_11
+		text = COM_new_national_plan
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_8
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_10
+		text = COM_Advocating_New_Socialism
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_8
+		}
+		x = 14
+		y = 4
 
 	}
 	focus = {
@@ -144,15 +252,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_10
-		text = COM_Advocating_New_Socialism
-		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
+		id = newfocus_18
+		text = COM_Systematization_of_Coyerism
+		icon = GFX_focus_SOV_stalins_cult_of_personality
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_8
+			focus = newfocus_17
 		}
-		x = 15
-		y = 4
+		x = 1
+		y = 6
 
 	}
 }
