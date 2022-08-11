@@ -240,6 +240,7 @@ ideologies = {
         }
 
 		dynamic_faction_names = {
+			"FACTION_NAME_STATISIMER_1"
 		}
 		
 		color = { 0 120 123 }
@@ -271,6 +272,7 @@ ideologies = {
 			Old_syndicalism
 		}
 		dynamic_faction_names = {
+			"FACTION_NAME_SYNDICALIST_1"
 		}
 		color = { 255 0 0 }
 		rules = {
@@ -298,6 +300,7 @@ ideologies = {
 			conservatism_ideology
         }
         dynamic_faction_names = {
+			"FACTION_NAME_CONSERVATISMER_1"
         }
         color = { 255 255 255 }
         rules = {
@@ -325,6 +328,7 @@ ideologies = {
 			New_revolutinarism
         }
      dynamic_faction_names = {
+		"FACTION_NAME_REVOLUTINARIST_1"
      }
      color = { 255 0 51 }
      rules = {

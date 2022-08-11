@@ -76,7 +76,7 @@ create_country_leader = {
 	desc = "POLITICS_Raiser_Yoshihikopf_DESC"
 	picture = "CC.dds"
 	expire = "1949.1.1"
-	ideology = neutrality
+	ideology = moderatism
 }
 
 create_country_leader = {
