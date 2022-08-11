@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_Kyosuke_Munonov_DESC"
 	picture = "CC.dds"
 	expire = "1965.1.1"
-	ideology = democratic
+	ideology = liberalism
 }
 
 create_country_leader = {
@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_Azulet_Kairov_DESC"
 	picture = "CC.dds"
 	expire = "1988.5.1"
-	ideology = communism
+	ideology = marxism
 }
 
 create_country_leader = {
