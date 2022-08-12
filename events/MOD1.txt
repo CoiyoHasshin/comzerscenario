@@ -8,16 +8,10 @@ country_event = {
 
     fire_only_once = yes
 
-    trigger = { 
-        tag = COM
-        has_completed_focus = COM_election_voice
-	}
-	mean_time_to_happen = {
-		days = 0
-	}
+    is_triggered_only = yes
 	
 	option = { # OptionA
-		name = ここは、社会民主党のCoiyr Comzerだろう。
+		name = ここは、社会民主党のCoiyrComzerだろう。
         set_politics = {
             ruling_party = revolutionarism
             elections_allowed = yes
@@ -37,7 +31,7 @@ country_event = {
 	}
 
     option = { # OptionB
-        name = やはり、強烈な保守主義者のPeter Khirookiskiだろう。
+        name = やはり、強烈な保守主義者のPeterKhirookiskiだろう。
         set_politics = {
             ruling_party = conservatism
             elections_allowed = yes
@@ -57,7 +51,7 @@ country_event = {
     }
 
     option = { # OptionC
-        name = Mailaki Komunzarこそ社会主義を履行するにふさわしいだろう！
+        name = MailakiKomunzarこそ社会主義を履行するにふさわしいだろう！
         set_politics = {
             ruling_party = syndicalism
             elections_allowed = no
@@ -77,7 +71,7 @@ country_event = {
     }
 
     option = { # OptionD
-        name = Dmitry Kolganov大将こそ、わが国を導く光となる。
+        name = DmitryKolganov大将こそ、わが国を導く光となる。
         set_politics = {
             ruling_party = fascism
             elections_allowed = no
@@ -97,7 +91,7 @@ country_event = {
     }
 
     option = { # OptionE
-        name = Alexeyevna Slavanovaya大佐の改革断行により、この国は変わる。
+        name = AlexeyevnaSlavanovaya大佐の改革断行により、この国は変わる。
         set_politics = {
             ruling_party = statism
             elections_allowed = no
@@ -117,7 +111,7 @@ country_event = {
     }
 
     option = { # OptionF
-        name = Kyosuke Munonovを再選させてみよう。
+        name = KyosukeMunonovを再選させてみよう。
         set_politics = {
             ruling_party = democratic
             elections_allowed = yes
