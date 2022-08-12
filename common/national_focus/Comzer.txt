@@ -19,23 +19,51 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_29
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_30
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_31
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_32
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 17
+		y = 6
+
+	}
+	focus = {
 		id = newfocus_1
 		text = COM_domestic_restructuring
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 10.00
 		x = 30
 		y = 0
-			complate = reward
-			= = {
-					add_war_support = 0.1
-				}
 
 	}
 	focus = {
 		id = newfocus_4
 		text = COM_return_to_socialism
 		icon = GFX_focus_generic_soviet_politics
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_1
 		}
@@ -160,7 +188,7 @@ focus_tree = {
 	focus = {
 		id = newfocus_24
 		text = COM_Adoption_of_Trotskyism
-		icon = GFX_focus_prc_agrarian_socialism
+		icon = GFX_focus_fra_loyalty_trotzky
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_16
@@ -248,6 +276,30 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_27
+		text = COM_Federal_military_support
+		icon = GFX_goal_generic_military_deal
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_28
+		text = COM_Revised_court_law
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_27
+		}
+		x = 21
+		y = 6
+
+	}
+	focus = {
 		id = newfocus_10
 		text = COM_Advocating_New_Socialism
 		icon = GFX_focus_SOV_the_glory_of_the_red_army_communism
@@ -260,18 +312,30 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_26
+		text = COM_third_way
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_10
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
 		id = newfocus_21
 		text = COM_Union_France
 		icon = GFX_focus_chi_reach_out_to_france
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_10
+			focus = newfocus_26
 		}
 		mutually_exclusive = {
 			focus = newfocus_20
 		}
 		x = 23
-		y = 5
+		y = 6
 
 	}
 	focus = {
@@ -280,14 +344,14 @@ focus_tree = {
 		icon = GFX_focus_chi_british_cooperation
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_10
+			focus = newfocus_26
 		}
 		mutually_exclusive = {
 			focus = newfocus_19
 			focus = newfocus_21
 		}
 		x = 26
-		y = 5
+		y = 6
 
 	}
 	focus = {
@@ -296,20 +360,20 @@ focus_tree = {
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_10
+			focus = newfocus_26
 		}
 		mutually_exclusive = {
 			focus = newfocus_20
 		}
 		x = 29
-		y = 5
+		y = 6
 
 	}
 	focus = {
 		id = newfocus_2
 		text = COM_The_rise_of_neoconservatism
 		icon = GFX_focus_eng_the_kings_party
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_1
 		}
@@ -325,7 +389,7 @@ focus_tree = {
 		id = newfocus_3
 		text = COM_Delegation_of_power_to_federal_forces
 		icon = GFX_focus_POL_complete_april_constitution
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_1
 		}
@@ -346,7 +410,7 @@ focus_tree = {
 			focus = newfocus_22
 		}
 		x = 13
-		y = 8
+		y = 7
 
 	}
 }

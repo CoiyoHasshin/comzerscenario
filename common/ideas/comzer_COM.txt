@@ -37,4 +37,42 @@ ideas {
             }
         }
     }
+    country = {
+        comzer_com_army_young = {
+
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+            removal_cost = -1
+            picture = german_advisors
+            modifier = {
+                stability_factor = -0.05
+            }
+        }
+    }
+    country = {
+        comzer_com_Republic_Reconstruction_Act = {
+
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+            removal_cost = -1
+            picture = generic_volunteer_expedition_bonus
+            modifier = {
+                conversion_cost_mil_to_civ_factor = 0.2
+                line_change_production_efficiency_factor = 0.1
+                Industrial_capacity_dockyard = 0.05
+            }
+        }
+    }
 }

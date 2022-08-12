@@ -46,4 +46,50 @@ characters = {
             }
         }
     }
+    idea_Alza_Scarlet = {
+        name = idea_Alza_Scarlet
+        portraits = {
+            army = {
+                small=GFX_idea_Alza_Scarlet
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Alza_Scarlet
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                gifted_shipping_magnate  
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Jorgensen_Henry = {
+        name = idea_Jorgensen_Henry
+        portraits = {
+            army = {
+                small=GFX_idea_Jorgensen_Henry
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Jorgensen_Henry
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                staunch_monarchist
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
 }
