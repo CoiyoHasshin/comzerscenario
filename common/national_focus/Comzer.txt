@@ -19,48 +19,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_29
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 19
-		y = 6
-
-	}
-	focus = {
-		id = newfocus_30
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 19
-		y = 7
-
-	}
-	focus = {
-		id = newfocus_31
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 17
-		y = 6
-
-	}
-	focus = {
-		id = newfocus_32
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 17
-		y = 7
-
-	}
-	focus = {
 		id = newfocus_1
 		text = COM_domestic_restructuring
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		cost = 10.00
 		x = 30
 		y = 0
-		completion_reward = {
-		add_political_power = 100
-		add_ideas = comzer_com_Republic_Reconstruction_Act
-		}
+			completion_reward = {
+					add_political_power = 100
+					add_ideas = comzer_com_Republic_Reconstruction_Act
+				}
 
 	}
 	focus = {
@@ -73,17 +41,13 @@ focus_tree = {
 		}
 		x = 30
 		y = 1
-		completion_reward = {
-		add_political_power = 150
-		remove_ideas = comzer_com_Election_demand
-		COM = { country_event = { id = mod.1 hours = 6 } }
-		}
+
 	}
 	focus = {
 		id = newfocus_4
 		text = COM_return_to_socialism
 		icon = GFX_focus_generic_soviet_politics
-		cost = 5.00
+		cost = 20.00
 		prerequisite = {
 			focus = newfocus_33
 		}
@@ -102,6 +66,9 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_4
 		}
+		mutually_exclusive = {
+			focus = newfocus_6
+		}
 		x = 10
 		y = 3
 
@@ -113,6 +80,10 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_4
+		}
+		mutually_exclusive = {
+			focus = newfocus_7
+			focus = newfocus_5
 		}
 		x = 14
 		y = 3
@@ -177,6 +148,9 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_4
 		}
+		mutually_exclusive = {
+			focus = newfocus_6
+		}
 		x = 20
 		y = 3
 
@@ -218,6 +192,30 @@ focus_tree = {
 		}
 		x = 19
 		y = 5
+
+	}
+	focus = {
+		id = newfocus_29
+		text = COM_organization_new_government
+		icon = GFX_goal_generic_soviet_construction
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_12
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_30
+		text = COM_Foundation_Komzar_Republic
+		icon = GFX_focus_generic_join_comintern
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_29
+		}
+		x = 19
+		y = 7
 
 	}
 	focus = {
@@ -342,10 +340,30 @@ focus_tree = {
 
 	}
 	focus = {
+		id = newfocus_35
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_28
+		}
+		prerequisite = {
+			focus = newfocus_21
+		}
+		prerequisite = {
+			focus = newfocus_20
+		}
+		prerequisite = {
+			focus = newfocus_19
+		}
+		x = 22
+		y = 8
+
+	}
+	focus = {
 		id = newfocus_2
 		text = COM_The_rise_of_neoconservatism
 		icon = GFX_focus_eng_the_kings_party
-		cost = 5.00
+		cost = 20.00
 		prerequisite = {
 			focus = newfocus_33
 		}
@@ -361,7 +379,7 @@ focus_tree = {
 		id = newfocus_3
 		text = COM_Delegation_of_power_to_federal_forces
 		icon = GFX_focus_POL_complete_april_constitution
-		cost = 5.00
+		cost = 20.00
 		prerequisite = {
 			focus = newfocus_33
 		}
@@ -431,6 +449,57 @@ focus_tree = {
 		}
 		x = 13
 		y = 8
+
+	}
+	focus = {
+		id = newfocus_31
+		text = COM_Assassination_Coillard
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_13
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_32
+		text = COM_Sanctification_o_Father
+		icon = GFX_focus_spa_the_phalanx_ascendant
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_31
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_34
+		text = COM_Long_live_the_republic!
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_30
+		}
+		prerequisite = {
+			focus = newfocus_32
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_36
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_34
+			focus = newfocus_25
+		}
+		x = 16
+		y = 10
 
 	}
 }

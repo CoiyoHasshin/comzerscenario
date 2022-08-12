@@ -28,6 +28,7 @@ country_event = {
             conservatism = 20
             revolutionarism = 35
         }
+        complete_national_focus = newfocus_4
 	}
 
     option = { # OptionB
@@ -48,6 +49,7 @@ country_event = {
             conservatism = 30
             revolutionarism = 10
         }
+        complete_national_focus = newfocus_2
     }
 
     option = { # OptionD
@@ -68,6 +70,7 @@ country_event = {
             conservatism = 5
             revolutionarism = 5
         }
+        complete_national_focus = newfocus_3
     }
 
     option = { # OptionE
@@ -88,5 +91,6 @@ country_event = {
             conservatism = 5
             revolutionarism = 10
         }
+        complete_national_focus = newfocus_3
     }
 }
