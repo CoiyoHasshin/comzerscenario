@@ -62,7 +62,7 @@ focus_tree = {
 		id = newfocus_7
 		text = COM_Breakthroughexecutivecommittee
 		icon = GFX_focus_POL_sanation_left
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_4
 		}
@@ -77,7 +77,7 @@ focus_tree = {
 		id = newfocus_6
 		text = COM_JoiningSocialDemocrats
 		icon = GFX_focus_POL_sanation_right
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_4
 		}
@@ -117,7 +117,7 @@ focus_tree = {
 		id = newfocus_16
 		text = COM_revolutionary_resurgence
 		icon = GFX_goal_generic_war_with_comintern
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_14
 		}
@@ -144,7 +144,7 @@ focus_tree = {
 		id = newfocus_5
 		text = COM_FatherNationtotheLeader
 		icon = GFX_focus_LAT_renew_kviesis_term
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_4
 		}
@@ -394,7 +394,7 @@ focus_tree = {
 		id = newfocus_17
 		text = COM_Coiyr_sect2
 		icon = GFX_goal_continuous_increase_nu
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_7
 		}
@@ -444,11 +444,11 @@ focus_tree = {
 		icon = GFX_focus_generic_manpower
 		cost = 10.00
 		prerequisite = {
-			focus = newfocus_24
-			focus = newfocus_22
+			focus = newfocus_38
+			focus = newfocus_37
 		}
-		x = 13
-		y = 8
+		x = 12
+		y = 9
 
 	}
 	focus = {
@@ -477,7 +477,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_34
-		text = COM_Long_live_the_republic!
+		text = COM_Long_live_the_republic
 		icon = GFX_focus_SOV_builder_of_the_red_army
 		cost = 10.00
 		prerequisite = {
@@ -492,14 +492,88 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_36
-		icon = GFX_goal_unknown
+		text = COM_National_Shredding_Plan
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_34
 			focus = newfocus_25
 		}
-		x = 16
+		x = 15
 		y = 10
+
+	}
+	focus = {
+		id = newfocus_37
+		text = COM_Formation_F_R_A
+		icon = GFX_focus_SOV_womens_fascist_movement
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_23
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_38
+		text = COM_Strengthening_thought_research
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_24
+			focus = newfocus_22
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_39
+		text = COM_riser_invasion_plan
+		icon = GFX_focus_attack_britain
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_36
+		}
+		x = 12
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_40
+		text = COM_Orim_Invasion_Plan
+		icon = GFX_focus_attack_france
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_36
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_41
+		text = COM_soviet_invasion_plan
+		icon = GFX_focus_attack_soviet
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_36
+		}
+		x = 18
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_42
+		text = COM_Support_the_Claudia_R_F
+		icon = GFX_focus_eng_special_air_service
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_39
+		}
+		x = 12
+		y = 12
 
 	}
 }
