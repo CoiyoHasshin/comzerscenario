@@ -89,10 +89,10 @@ ideas {
             removal_cost = -1
             picture = generic_volunteer_expedition_bonus
             modifier = {
-                consumer_goods_factor = 0.5
-                Industrial_capacity_factory = 0.5
-                Industrial_capacity_dockyard = 0.5
-                production_speed_buildings_factor = 0.5
+                consumer_goods_factor = -0.5
+                Industrial_capacity_factory = -0.5
+                Industrial_capacity_dockyard = -0.5
+                production_speed_buildings_factor = -0.5
             }
         }
     }

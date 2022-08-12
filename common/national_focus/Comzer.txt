@@ -57,10 +57,10 @@ focus_tree = {
 		cost = 10.00
 		x = 30
 		y = 0
-			completion_reward = {
-					add_political_power = 100
-					add_ideas = comzer_com_Republic_Reconstruction_Act
-				}
+		completion_reward = {
+		add_political_power = 100
+		add_ideas = comzer_com_Republic_Reconstruction_Act
+		}
 
 	}
 	focus = {
@@ -73,7 +73,11 @@ focus_tree = {
 		}
 		x = 30
 		y = 1
-
+		completion_reward = {
+		add_political_power = 150
+		remove_ideas = comzer_com_Election_demand
+		COM = { country_event = mod.1 }
+		}
 	}
 	focus = {
 		id = newfocus_4
