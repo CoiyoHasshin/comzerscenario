@@ -73,8 +73,11 @@ communism_desc:0 "共産党政治中央委員会"
 fascism_desc:0 "連邦軍政府"
 democratic_desc:0 "保守党政権"
 
-###ideas-国家精神など###
+###ideas-国民精神など###
 comzer_com_industry_problem:0 "公共事業政策"
 comzer_com_industry_problem_desc:0 "公共事業法で、より早く国家の再建を成せるように労働者たちは働いている。しかしながら、彼らはストライキを起こすかもしれない。"
 comzer_com_army_floo:0 "軍隊の浸透"
 comzer_com_army_floo_desc:0 "先の大戦で軍隊は予想以上に活躍した。国民の軍隊への視線もあまり厳しくはない。これを機に、連邦軍本部は青年たちの志願兵を募っている。"
+idea_laphroaig_benetreit:0 "ラフロイグ・ベネトレイト"
+idea_Klein_Karban:0 "クライン・カールバン"
+idea_Klein_Karban_desc:0 "コムザール民主主義の第一人者"

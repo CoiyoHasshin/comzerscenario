@@ -1,0 +1,49 @@
+characters = {
+    idea_laphroaig_benetreit = {
+        name = idea_laphroaig_benetreit
+        portraits = {
+            army = {
+                small=GFX_idea_laphroaig_benetreit
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_laphroaig_benetreit
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                prince_of_terror
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Klein_Karban = {
+        name = idea_Klein_Karban
+        portraits = {
+            army = {
+                small=GFX_idea_Klein_Karban
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Klein_Karban
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                	democratic_reformer
+                    ideological_crusader
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+}

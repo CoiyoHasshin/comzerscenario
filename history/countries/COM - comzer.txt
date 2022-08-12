@@ -32,6 +32,7 @@ set_technology = {
 add_ideas = {
 	comzer_com_industry_problem
 	comzer_com_army_floo
+	laphroaig_benetreit
 }
 
 set_politics = {
@@ -140,3 +141,5 @@ create_country_leader = {
 	}
 }
 
+recruit_character = idea_laphroaig_benetreit
+recruit_character = idea_Klein_Karban
