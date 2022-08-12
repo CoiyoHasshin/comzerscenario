@@ -50,26 +50,6 @@ country_event = {
         }
     }
 
-    option = { # OptionC
-        name = MailakiKomunzarこそ社会主義を履行するにふさわしいだろう！
-        set_politics = {
-            ruling_party = syndicalism
-            elections_allowed = no
-            last_election "1936.5.14"
-            election_frequency = 36
-        }
-        set_popularities = {
-            democratic = 5
-            fascism = 5
-            communism = 5
-            neutrality = 20
-            statism = 15
-            syndicalism = 30
-            conservatism = 10
-            revolutionarism = 10
-        }
-    }
-
     option = { # OptionD
         name = DmitryKolganov大将こそ、わが国を導く光となる。
         set_politics = {
@@ -107,26 +87,6 @@ country_event = {
             syndicalism = 5
             conservatism = 5
             revolutionarism = 10
-        }
-    }
-
-    option = { # OptionF
-        name = KyosukeMunonovを再選させてみよう。
-        set_politics = {
-            ruling_party = democratic
-            elections_allowed = yes
-            last_election "1936.5.14"
-            election_frequency = 36
-        }
-        set_popularities = {
-            democratic = 35
-            fascism = 10
-            communism = 5
-            neutrality = 5
-            statism = 10
-            syndicalism = 5
-            conservatism = 5
-            revolutionarism = 25
         }
     }
 }
