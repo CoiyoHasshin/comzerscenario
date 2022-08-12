@@ -71,7 +71,28 @@ ideas {
             modifier = {
                 conversion_cost_mil_to_civ_factor = 0.2
                 line_change_production_efficiency_factor = 0.1
-                Industrial_capacity_dockyard = 0.05
+                Industrial_capacity_dockyard = -0.05
+            }
+        }
+    }
+    country = {
+        comzer_com_Election_demand = {
+
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+            removal_cost = -1
+            picture = generic_volunteer_expedition_bonus
+            modifier = {
+                consumer_goods_factor = 0.5
+                Industrial_capacity_factory = 0.5
+                Industrial_capacity_dockyard = 0.5
+                production_speed_buildings_factor = 0.5
             }
         }
     }

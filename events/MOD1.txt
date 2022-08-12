@@ -1,0 +1,138 @@
+add_namespace = mod
+# A
+country_event = {
+    id = mod.1
+    title = mod.1.t
+    desc = mod.1.d
+    picture = GFX_event_test
+
+    fire_only_once = yes
+
+    trigger = { 
+        tag = COM
+        has_completed_focus = COM_election_voice
+	}
+	mean_time_to_happen = {
+		days = 0
+	}
+	
+	option = { # OptionA
+		name = ここは、社会民主党のCoiyr Comzerだろう。
+        set_politics = {
+            ruling_party = revolutionarism
+            elections_allowed = yes
+            last_election "1936.5.14"
+            election_frequency = 36
+        }
+        set_popularities = {
+            democratic = 10
+            fascism = 5
+            communism = 5
+            neutrality = 10
+            statism = 15
+            syndicalism = 10
+            conservatism = 20
+            revolutionarism = 35
+        }
+	}
+
+    option = { # OptionB
+        name = やはり、強烈な保守主義者のPeter Khirookiskiだろう。
+        set_politics = {
+            ruling_party = conservatism
+            elections_allowed = yes
+            last_election "1936.5.14"
+            election_frequency = 36
+        }
+        set_popularities = {
+            democratic = 5
+            fascism = 5
+            communism = 5
+            neutrality = 20
+            statism = 15
+            syndicalism = 10
+            conservatism = 30
+            revolutionarism = 10
+        }
+    }
+
+    option = { # OptionC
+        name = Mailaki Komunzarこそ社会主義を履行するにふさわしいだろう！
+        set_politics = {
+            ruling_party = syndicalism
+            elections_allowed = no
+            last_election "1936.5.14"
+            election_frequency = 36
+        }
+        set_popularities = {
+            democratic = 5
+            fascism = 5
+            communism = 5
+            neutrality = 20
+            statism = 15
+            syndicalism = 30
+            conservatism = 10
+            revolutionarism = 10
+        }
+    }
+
+    option = { # OptionD
+        name = Dmitry Kolganov大将こそ、わが国を導く光となる。
+        set_politics = {
+            ruling_party = fascism
+            elections_allowed = no
+            last_election "1936.5.14"
+            election_frequency = 36
+        }
+        set_popularities = {
+            democratic = 5
+            fascism = 50
+            communism = 5
+            neutrality = 10
+            statism = 15
+            syndicalism = 5
+            conservatism = 5
+            revolutionarism = 5
+        }
+    }
+
+    option = { # OptionE
+        name = Alexeyevna Slavanovaya大佐の改革断行により、この国は変わる。
+        set_politics = {
+            ruling_party = statism
+            elections_allowed = no
+            last_election "1936.5.14"
+            election_frequency = 36
+        }
+        set_popularities = {
+            democratic = 5
+            fascism = 20
+            communism = 5
+            neutrality = 5
+            statism = 45
+            syndicalism = 5
+            conservatism = 5
+            revolutionarism = 10
+        }
+    }
+
+    option = { # OptionF
+        name = Kyosuke Munonovを再選させてみよう。
+        set_politics = {
+            ruling_party = democratic
+            elections_allowed = yes
+            last_election "1936.5.14"
+            election_frequency = 36
+        }
+        set_popularities = {
+            democratic = 35
+            fascism = 10
+            communism = 5
+            neutrality = 5
+            statism = 10
+            syndicalism = 5
+            conservatism = 5
+            revolutionarism = 25
+        }
+    }
+}

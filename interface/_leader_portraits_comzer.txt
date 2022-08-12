@@ -3,4 +3,9 @@ spriteTypes = {
         name = "GFX_idea_Klein_Karban"
         textureFile = "gfx/interface/ideas/idea_Klein_Karban.dds"
     }
+
+    spriteType = {
+        name = "GFX_idea_Raiser_Yoshihikopf"
+        textureFile = "gfx/leaders/COM/RY.dds
+    }
 }

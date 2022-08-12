@@ -33,6 +33,7 @@ add_ideas = {
 	comzer_com_industry_problem
 	comzer_com_army_floo
 	comzer_com_army_young
+	comzer_com_Election_demand
 }
 
 set_politics = {
@@ -145,3 +146,7 @@ recruit_character = idea_laphroaig_benetreit
 recruit_character = idea_Klein_Karban
 recruit_character = idea_Alza_Scarlet
 recruit_character = idea_Jorgensen_Henry
+recruit_character = idea_fullwave_authentic
+recruit_character = idea_shetz_mcqueen
+recruit_character = idea_Raiser_Yoshihikopf
+recruit_character = idea_Coiyr_Comzer

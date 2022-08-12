@@ -92,4 +92,98 @@ characters = {
             }
         }
     }
+    idea_fullwave_authentic = {
+        name = idea_fullwave_authentic
+        portraits = {
+            army = {
+                small=GFX_idea_fullwave_authentic
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_fullwave_authentic
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                communist_revolutionary
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_shetz_mcqueen = {
+        name = idea_shetz_mcqueen
+        portraits = {
+            army = {
+                small=GFX_idea_shetz_mcqueen
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_shetz_mcqueen
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                fascist_demagogue
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Raiser_Yoshihikopf = {
+        name = idea_Raiser_Yoshihikopf
+        portraits = {
+            army = {
+                small=GFX_idea_Raiser_Yoshihikopf
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Raiser_Yoshihikopf
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	compassionate_commoner
+                the_banker
+            }
+            cost = 200
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Coiyr_Comzer = {
+        name = idea_Coiyr_Comzer
+        portraits = {
+            army = {
+                small=GFX_idea_Coiyr_Comzer
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Coiyr_Comzer
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	editor
+             	lieutenant_of_industry   
+            }
+            cost = 200
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
 }
