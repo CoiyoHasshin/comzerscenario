@@ -1,0 +1,57 @@
+COM_INF_02 = 
+{
+    name = "Comzer Political Police"
+
+    for_countries = { COM }
+
+    can_use = { always = yes }
+
+    division_types = { "infantry" }
+
+    #link_numbering_with = { COM_INF_01 }
+
+    fallback_name = "%d Comzer Political Police"
+
+    ordered =
+    {
+        1 = { "%dst Comzer Political Police" }
+        2 = { "%dnd Comzer Political Police" }
+        3 = { "%drd Comzer Political Police" }
+        4 = { "$dth Comzer Political Police" }
+        5 = { "$dth Comzer Political Police" }
+        6 = { "$dth Comzer Political Police" }
+        7 = { "$dth Comzer Political Police" }
+        9 = { "$dth Comzer Political Police" }
+        10 = { "$dth Comzer Political Police" }
+        100 = { "$dth Comzer Political Police" }
+    }
+}
+
+COM_CNF_01 =
+{
+    name = "Comzer National Forces"
+
+    for_countries = { COM }
+
+    can_use = { always = yes }
+
+    division_types = { "infantry" }
+
+    #link_numbering_with = { COM_CNF_01 }
+
+    fallback_name = "%d Comzer National Forces"
+
+    ordered =
+    {
+        1 = { "%dst Comzer National Forces" }
+        2 = { "%dnd Comzer National Forces" }
+        3 = { "%drd Comzer National Forces" }
+        4 = { "$dth Comzer National Forces" }
+        5 = { "$dth Comzer National Forces" }
+        6 = { "$dth Comzer National Forces" }
+        7 = { "$dth Comzer National Forces" }
+        9 = { "$dth Comzer National Forces" }
+        10 = { "$dth Comzer National Forces" }
+        100 = { "$dth Comzer National Forces" }
+    }
+}

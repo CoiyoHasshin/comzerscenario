@@ -144,6 +144,11 @@ idea_Dominik_Elert:0 "ドミニク・エレルト"
 idea_Dominik_Elert_desc:0 "核物質理論家"
 idea_Oleg_Romanenko:0 "オレーク・ロマネンコ"
 idea_Oleg_Romanenko_desc:0 "連邦軍前大尉"
+idea_Dmitry_Kolganov:0 "ドミートリー・コルガノフ"
+idea_Dmitry_Kolganov_desc:0 "連邦軍大将"
+idea_Alexeyevna_Slavanovaya:0 "アレクセーエヴナ・スラーヴァノヴァヤ"
+idea_Alexeyevna_Slavanovaya_desc:0 "連邦軍大佐"
+
 
 ###events-イベントなど###
 mod.1.t:0 "解散総選挙"
@@ -158,3 +163,9 @@ Newrevolism_desc:0 "新革命主義"
 conservatives_desc:0 "急進的右派主義"
 Unionism_desc:0 "組合評議会主義"
 bigstatism_desc:0 "超国家主義"
+
+###units-装備など###
+infantry_equipment_1:0 "Kardiya06 ライフル"
+infantry_equipment_2:0 "Kardiya06 カービン"
+infantry_equipment_3:0 "kardiya06 マシーネ"
+support_equipment_1:0 "シヌィエ型支援装備"

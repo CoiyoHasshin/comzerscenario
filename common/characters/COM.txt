@@ -202,6 +202,7 @@ characters = {
             }
             traits = {
             	nuclear_scientist
+            	technocrat
             }
             cost = 250
             ai_will_do = {
@@ -227,6 +228,52 @@ characters = {
             	military_theorist
             }
             cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Dmitry_Kolganov = {
+        name = idea_Dmitry_Kolganov
+        portraits = {
+            army = {
+                small=GFX_idea_Dmitry_Kolganov
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_Oleg_Dmitry_Kolganov
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                army_chief_maneuver_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Alexeyevna_Slavanovaya = {
+        name = idea_Alexeyevna_Slavanovaya
+        portraits = {
+            army = {
+                small=GFX_idea_Alexeyevna_Slavanovaya
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_Oleg_Alexeyevna_Slavanovaya
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_chief_reform_3
+            }
+            cost = 150
             ai_will_do = {
                 factor = 0
             }
