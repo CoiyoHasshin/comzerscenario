@@ -186,4 +186,50 @@ characters = {
             }
         }
     }
+    idea_Dominik_Elert = {
+        name = idea_Dominik_Elert
+        portraits = {
+            army = {
+                small=GFX_idea_Dominik_Elert
+            }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = idea_Dominik_Elert
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	nuclear_scientist
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Oleg_Romanenko = {
+        name = idea_Oleg_Romanenko
+        portraits = {
+            army = {
+                small=GFX_idea_Oleg_Romanenko
+            }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = idea_Oleg_Romanenko
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	military_theorist
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
 }

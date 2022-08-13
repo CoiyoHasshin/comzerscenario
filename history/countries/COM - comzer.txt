@@ -38,7 +38,7 @@ add_ideas = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1933.5.17"
+	last_election = "1933.8.17"
 	election_frequency = 36
 	elections_allowed = yes
 }
@@ -150,3 +150,5 @@ recruit_character = idea_fullwave_authentic
 recruit_character = idea_shetz_mcqueen
 recruit_character = idea_Raiser_Yoshihikopf
 recruit_character = idea_Coiyr_Comzer
+recruit_character = idea_Dominik_Elert
+recruit_character = idea_Oleg_Romanenko

@@ -341,19 +341,16 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_35
-		icon = GFX_goal_unknown
+		text = COM_world_government_concept
+		icon = GFX_focus_generic_treaty
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_28
 		}
 		prerequisite = {
-			focus = newfocus_21
-		}
-		prerequisite = {
-			focus = newfocus_20
-		}
-		prerequisite = {
 			focus = newfocus_19
+			focus = newfocus_21
+			focus = newfocus_20
 		}
 		x = 22
 		y = 8
@@ -518,7 +515,7 @@ focus_tree = {
 	focus = {
 		id = newfocus_38
 		text = COM_Strengthening_thought_research
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_focus_generic_socialist_science
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_24
@@ -532,11 +529,11 @@ focus_tree = {
 		id = newfocus_39
 		text = COM_riser_invasion_plan
 		icon = GFX_focus_attack_britain
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_36
 		}
-		x = 12
+		x = 13
 		y = 11
 
 	}
@@ -544,7 +541,7 @@ focus_tree = {
 		id = newfocus_40
 		text = COM_Orim_Invasion_Plan
 		icon = GFX_focus_attack_france
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_36
 		}
@@ -556,11 +553,11 @@ focus_tree = {
 		id = newfocus_41
 		text = COM_soviet_invasion_plan
 		icon = GFX_focus_attack_soviet
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_36
 		}
-		x = 18
+		x = 17
 		y = 11
 
 	}
@@ -572,8 +569,75 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_39
 		}
-		x = 12
+		x = 13
 		y = 12
+
+	}
+	focus = {
+		id = newfocus_43
+		text = COM_Establishment_U_G
+		icon = GFX_focus_chi_reach_out_to_france
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_40
+		}
+		x = 15
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_44
+		text = COM_new_socialist_government
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_41
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_45
+		text = COM_British-French_Union
+		icon = GFX_focus_eng_organise_the_blackshirts
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_43
+		}
+		prerequisite = {
+			focus = newfocus_42
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_46
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_43
+		}
+		prerequisite = {
+			focus = newfocus_44
+		}
+		x = 16
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_47
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_46
+		}
+		prerequisite = {
+			focus = newfocus_45
+		}
+		x = 15
+		y = 14
 
 	}
 }

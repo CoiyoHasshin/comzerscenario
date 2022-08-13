@@ -23,10 +23,10 @@ country_event = {
             fascism = 5
             communism = 5
             neutrality = 10
-            statism = 15
+            statism = 10
             syndicalism = 10
             conservatism = 20
-            revolutionarism = 35
+            revolutionarism = 30
         }
         complete_national_focus = newfocus_4
 	}
