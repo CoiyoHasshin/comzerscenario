@@ -583,7 +583,7 @@ focus_tree = {
 		id = newfocus_42
 		text = COM_Support_the_Claudia_R_F
 		icon = GFX_focus_eng_special_air_service
-		cost = 10.00
+		cost = 4.00
 		prerequisite = {
 			focus = newfocus_39
 		}
@@ -595,7 +595,7 @@ focus_tree = {
 		id = newfocus_43
 		text = COM_Establishment_U_G
 		icon = GFX_focus_chi_reach_out_to_france
-		cost = 10.00
+		cost = 4.00
 		prerequisite = {
 			focus = newfocus_40
 		}
@@ -607,7 +607,7 @@ focus_tree = {
 		id = newfocus_44
 		text = COM_new_socialist_government
 		icon = GFX_focus_chi_mission_to_the_soviet_union
-		cost = 10.00
+		cost = 4.00
 		prerequisite = {
 			focus = newfocus_41
 		}
@@ -619,7 +619,7 @@ focus_tree = {
 		id = newfocus_45
 		text = COM_British-French_Union
 		icon = GFX_focus_eng_organise_the_blackshirts
-		cost = 10.00
+		cost = 6.00
 		prerequisite = {
 			focus = newfocus_43
 		}
@@ -632,8 +632,9 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_46
-		icon = GFX_goal_unknown
-		cost = 10.00
+		text = COM_Establishment_Komzar_EastWard
+		icon = GFX_focus_chi_one_china_policy
+		cost = 6.00
 		prerequisite = {
 			focus = newfocus_43
 		}
@@ -646,7 +647,8 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_47
-		icon = GFX_goal_unknown
+		text = COM_From_Brandenburg_Moscow
+		icon = GFX_focus_generic_treaty
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_46
@@ -655,6 +657,30 @@ focus_tree = {
 			focus = newfocus_45
 		}
 		x = 15
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_48
+		text = COM_go_to_all
+		icon = GFX_focus_generic_little_entente
+		cost = 20.00
+		prerequisite = {
+			focus = newfocus_35
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_49
+		text = COM_First_Chairman
+		icon = GFX_focus_LAT_banish_clemins
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_48
+		}
+		x = 22
 		y = 14
 
 	}
