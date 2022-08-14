@@ -1,10 +1,11 @@
 ﻿l_english:
+ #初期
  COM_domestic_restructuring:0 "国内の立て直し"
  COM_domestic_restructuring_desc:0 "国内の経済、政治、軍事は非常に荒廃している。これをどうにかするには、国民の支持が不可欠だろう。何故ならば、国民こそが国家であり、国家こそが国民であるからである。"
- COM_The_rise_of_neoconservatism:0 "新保守主義の台頭"
- COM_The_rise_of_neoconservatism_desc:0 "ムノノフ、ピョートル、クライン、アルザの四巨頭による保守政治は、更なる飛躍と安定をもたらすだろう。また新たな保守主義が持ち込まれることで、コムザールにとっての利益となるはずだ。"
- COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
- COM_Delegation_of_power_to_federal_forces_desc:0 "戦争では負けたものの、連邦軍の活躍は賞賛されるべきだと将校団は主張している。既に国民も軍を支持し始めているため、反逆はまた新たな戦争を生むに違いない。ここは一度英雄たちに政権を渡してみるのも手だろう。"
+ COM_election_voice:0 "選挙の声"
+ COM_election_voice_desc:0 "選挙を求める国民が増加しつつある。ムノノフ政権は避けたがっているが、最早通るしか道は無いだろう。しかし、再選の可能性にかけてみるのは悪くない。"
+
+ #社会主義ルート
  COM_return_to_socialism:0 "社会主義への回帰"
  COM_return_to_socialism_desc:0 "社会主義運動の活発化から、以前のように社会主義がもたらす繫栄を望むものは少なくない。保守主義の瓦解と引き換えに、社会主義の平和を望む国民のために、社会主義政党へ政権を委任してみるのも悪い選択肢ではないだろう。"
  COM_FatherNationtotheLeader:0 "国父を指導者へ！"
@@ -55,8 +56,6 @@
  COM_Federal_military_support_desc:0 "連邦軍の英雄主義は迎合しがたいが、彼らの支持は我々も欲しいところだ。軍からの支持を得られれば、あらゆる改革もスムーズに進むに違いない。"
  COM_Revised_court_law:0 "改正裁判法"
  COM_Revised_court_law_desc:0 "旧来の裁判法では十分に反逆者を裁けないと連邦軍将校団からの書簡を受け、我々はこれを改正する必要性に迫られている。彼らの意見をそのまま鵜呑みにするのは危険かもしれないが、我々にそれを止める力はない。"
- COM_election_voice:0 "選挙の声"
- COM_election_voice_desc:0 "選挙を求める国民が増加しつつある。ムノノフ政権は避けたがっているが、最早通るしか道は無いだろう。しかし、再選の可能性にかけてみるのは悪くない。"
  COM_organization_new_government:0 "新政府の組織"
  COM_organization_new_government_desc:0 "大統領府爆破に伴い、新たな新体制を確立させる必要がある。各地に誕生した評議会を取りまとめる社会共和連邦制を確立させる時だ。"
  COM_Foundation_Komzar_Republic:0 "コムザール共和連邦の設立"
@@ -94,9 +93,24 @@
  COM_From_Brandenburg_Moscow:0 "明日の手紙"
  COM_From_Brandenburg_Moscow_desc:0 "為すべきことを、為すのみだ。"
  COM_go_to_all:0 "進め、すべてへ"
+ COM_go_to_all_desc:0 "我々はもはや後戻りはできない。ただ一人、唯一の指導者であり国家の英雄である男の指揮に従い、我らが世界人民は各地へ容赦ないコムザール化をするのみである。"
  COM_First_Chairman:0 "世界政府初代議長"
  COM_First_Chairman_desc:0 "今、我々はベルリンからモスクワ、果てはウラジオストクに至るまでのユーラシアを全て支配している。世界政府は今まさに設立されるべき時に来ているのだ。初代議長には、「彼」が就任する手はずとなっている。"
- 
+
+ #保守ルート
+ COM_The_rise_of_neoconservatism:0 "新保守主義の台頭"
+ COM_The_rise_of_neoconservatism_desc:0 "ムノノフ、ピョートル、クライン、アルザの四巨頭による保守政治は、更なる飛躍と安定をもたらすだろう。また新たな保守主義が持ち込まれることで、コムザールにとっての利益となるはずだ。"
+ COM_radical_conservatism:0 "急進的保守主義"
+ COM_radical_conservatism_desc:0 "急進的保守主義、俗にピョートル派と呼ばれる派閥は保守党内でも無視できない力を保持している。またピョートル・ヒロオキスキーも総裁選へ前向きとなっている。ここは一度、彼に手綱を握らせてみるのも悪くないかもしれない。"
+ COM_conservative_socialism:0 "保守的社会主義"
+ COM_conservative_socialism_desc:0 "保守主義の中でも左派的側面を持つ保守的社会主義、いわゆるクライン派は社会福祉の拡充と社会主義的政策の保守化を目指している。勤勉な指導者が握るべきは党の役職ではなく、国家の役職であることは自明だろう。"
+ COM_progressive_conservatism:0 "進歩的保守主義"
+ COM_progressive_conservatism_desc:0 "コムザールのメディア王であり、ミュンヘンに一定の支持を得ている進歩的保守主義、アルザ派はオルガナイズの不得手があるものの、その主義主張は新たな風を呼び込むにふさわしいものだ。彼が闘争に勝利した暁には、与えられるべきは国家の義務と権力だろう。"
+
+
+ #軍政ルート
+ COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
+ COM_Delegation_of_power_to_federal_forces_desc:0 "戦争では負けたものの、連邦軍の活躍は賞賛されるべきだと将校団は主張している。既に国民も軍を支持し始めているため、反逆はまた新たな戦争を生むに違いない。ここは一度英雄たちに政権を渡してみるのも手だろう。"
 
 
 
