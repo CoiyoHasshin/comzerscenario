@@ -159,10 +159,39 @@ recruit_character = idea_Coiyr_Comzer
 #理論家
 recruit_character = idea_Dominik_Elert
 recruit_character = idea_Oleg_Romanenko
+recruit_character = idea_Jonathan_Reimann
+recruit_character = idea_Isidor_Dubinin
 
 #陸軍
 recruit_character = idea_Dmitry_Kolganov
 recruit_character = idea_Alexeyevna_Slavanovaya
+recruit_character = idea_Rupert_Schreiber
+recruit_character = idea_Yeremey_Svetkin
+recruit_character = idea_Karlheinz_Langner
+recruit_character = idea_Randolf_Bittner
+recruit_character = idea_Eduard_Koltakov
+recruit_character = idea_Gert_Sauerland
+
+#海軍
+recruit_character = idea_Isay_Manayenkov
+recruit_character = idea_Gotthard_Brauer
+recruit_character = idea_Henrik_Lindenberg
+recruit_character = idea_Aleksandr_Zyablov
+recruit_character = idea_Reimund_Behrend
+recruit_character = idea_Hildebrecht_Hagendorf
+recruit_character = idea_Alois_Sebald
+recruit_character = idea_Erhard_Achenbach
+
+#空軍
+recruit_character = idea_Svyatoslav_Kirichenko
+recruit_character = idea_Rudolf_von_Leistner
+recruit_character = idea_Felix_Hassler
+recruit_character = idea_Yury_Bevzenko
+recruit_character = idea_Siegmund_Schlegel
+recruit_character = idea_Ulrich_Hofhaimer
+recruit_character = idea_Alban_Kallenberg
+recruit_character = idea_Werner_Altmeyer
+
 
 if = {
 	limit = { has_dlc = "Man the Guns" }

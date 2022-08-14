@@ -204,7 +204,7 @@ characters = {
             	nuclear_scientist
             	technocrat
             }
-            cost = 250
+            cost = 150
             ai_will_do = {
                 factor = 0
             }
@@ -227,7 +227,7 @@ characters = {
             traits = {
             	military_theorist
             }
-            cost = 250
+            cost = 150
             ai_will_do = {
                 factor = 0
             }
@@ -242,7 +242,7 @@ characters = {
         }
         advisor = {
             slot = army_chief
-            idea_token = idea_Oleg_Dmitry_Kolganov
+            idea_token = idea_Dmitry_Kolganov
             allowed = {
                 original_tag = COM
                 always = yes
@@ -265,7 +265,7 @@ characters = {
         }
         advisor = {
             slot = army_chief
-            idea_token = idea_Oleg_Alexeyevna_Slavanovaya
+            idea_token = idea_Alexeyevna_Slavanovaya
             allowed = {
                 original_tag = COM
                 always = yes
@@ -273,7 +273,582 @@ characters = {
             traits = {
             	army_chief_reform_3
             }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Gotthard_Brauer = {
+        name = idea_Gotthard_Brauer
+        portraits = {
+            army = {
+                small=GFX_idea_Gotthard_Brauer
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Gotthard_Brauer
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_chief_maneuver_2
+            }
             cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Isay_Manayenkov = {
+        name = idea_Isay_Manayenkov
+        portraits = {
+            army = {
+                small=GFX_idea_Isay_Manayenkov
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Isay_Manayenkov
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_chief_old_guard
+            }
+            cost = 100
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Svyatoslav_Kirichenko  = {
+        name = idea_Svyatoslav_Kirichenko
+        portraits = {
+            army = {
+                small=GFX_idea_Svyatoslav_Kirichenko
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Svyatoslav_Kirichenko
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_chief_old_guard
+            }
+            cost = 100
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Rudolf_von_Leistner  = {
+        name = idea_Rudolf_von_Leistner
+        portraits = {
+            army = {
+                small=GFX_idea_Rudolf_von_Leistner
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Rudolf_von_Leistner
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_close_air_support_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Jonathan_Reimann = {
+        name = idea_Jonathan_Reimann
+        portraits = {
+            army = {
+                small=GFX_idea_Jonathan_Reimann
+            }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = idea_Jonathan_Reimann
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	council_of_theorists
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Isidor_Dubinin = {
+        name = idea_Isidor_Dubinin
+        portraits = {
+            army = {
+                small=GFX_idea_Isidor_Dubinin
+            }
+        }
+        advisor = {
+            slot = theorist
+            idea_token = idea_Isidor_Dubinin
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	naval_theorist
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Rupert_Schreiber = {
+        name = idea_Rupert_Schreiber
+        portraits = {
+            army = {
+                small=GFX_idea_Rupert_Schreiber
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_idea_Rupert_Schreiber
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_chief_old_guard
+            }
+            cost = 100
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Yeremey_Svetkin = {
+        name = idea_Yeremey_Svetkin
+        portraits = {
+            army = {
+                small=GFX_idea_Yeremey_Svetkin
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_idea_Yeremey_Svetkin
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_chief_morale_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Henrik_Lindenberg = {
+        name = idea_Henrik_Lindenberg
+        portraits = {
+            army = {
+                small=GFX_idea_Henrik_Lindenberg
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Henrik_Lindenberg
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_chief_reform_1
+            }
+            cost = 100
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Aleksandr_Zyablov = {
+        name = idea_Aleksandr_Zyablov
+        portraits = {
+            army = {
+                small=GFX_idea_Aleksandr_Zyablov
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Aleksandr_Zyablov
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_amphibious_assault_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Felix_Hassler = {
+        name = idea_Felix_Hassler
+        portraits = {
+            army = {
+                small=GFX_idea_Felix_Hassler
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Felix_Hassler
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_air_superiority_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Yury_Bevzenko = {
+        name = idea_Yury_Bevzenko
+        portraits = {
+            army = {
+                small=GFX_idea_Yury_Bevzenko
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Yury_Bevzenko
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_chief_ground_support_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Karlheinz_Langner = {
+        name = idea_Karlheinz_Langner
+        portraits = {
+            army = {
+                small=GFX_idea_Karlheinz_Langner
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_Karlheinz_Langner
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_logistics_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Varlam_Timoshenko = {
+        name = idea_Varlam_Timoshenko
+        portraits = {
+            army = {
+                small=GFX_idea_Varlam_Timoshenko
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_Varlam_Timoshenko
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_chief_offensive_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Randolf_Bittner = {
+        name = idea_Randolf_Bittner
+        portraits = {
+            army = {
+                small=GFX_idea_Randolf_Bittner
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_Randolf_Bittner
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_armored_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Eduard_Koltakov = {
+        name = idea_Eduard_Koltakov
+        portraits = {
+            army = {
+                small=GFX_idea_Eduard_Koltakov
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_Eduard_Koltakov
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_cavalry_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Gert_Sauerland = {
+        name = idea_Gert_Sauerland
+        portraits = {
+            army = {
+                small=GFX_idea_Gert_Sauerland
+            }
+        }
+        advisor = {
+            slot = army_chief
+            idea_token = idea_Gert_Sauerland
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	army_chief_defensive_1
+            }
+            cost = 100
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Reimund_Behrend = {
+        name = idea_Reimund_Behrend
+        portraits = {
+            army = {
+                small=GFX_idea_Reimund_Behrend
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Reimund_Behrend
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_anti_submarine_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Hildebrecht_Hagendorf = {
+        name = idea_Hildebrecht_Hagendorf
+        portraits = {
+            army = {
+                small=GFX_idea_Hildebrecht_Hagendorf
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Hildebrecht_Hagendorf
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_fleet_logistics_1
+            }
+            cost = 100
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Erhard_Achenbach = {
+        name = idea_Erhard_Achenbach
+        portraits = {
+            army = {
+                small=GFX_idea_Erhard_Achenbach
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Erhard_Achenbach
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_chief_reform_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Alois_Sebald = {
+        name = idea_Alois_Sebald
+        portraits = {
+            army = {
+                small=GFX_idea_Alois_Sebald
+            }
+        }
+        advisor = {
+            slot = navy_chief
+            idea_token = idea_Alois_Sebald
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	navy_chief_decisive_battle_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Siegmund_Schlegel  = {
+        name = idea_Siegmund_Schlegel
+        portraits = {
+            army = {
+                small=GFX_idea_Siegmund_Schlegel
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Siegmund_Schlegel
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_chief_safety_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Ulrich_Hofhaimer  = {
+        name = idea_Ulrich_Hofhaimer
+        portraits = {
+            army = {
+                small=GFX_idea_Ulrich_Hofhaimer
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Ulrich_Hofhaimer
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_chief_all_weather_3
+            }
+            cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Alban_Kallenberg  = {
+        name = idea_Alban_Kallenberg
+        portraits = {
+            army = {
+                small=GFX_idea_Alban_Kallenberg
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Alban_Kallenberg
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_air_superiority_2
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Werner_Altmeyer  = {
+        name = idea_Werner_Altmeyer
+        portraits = {
+            army = {
+                small=GFX_idea_Werner_Altmeyer
+            }
+        }
+        advisor = {
+            slot = air_chief
+            idea_token = idea_Werner_Altmeyer
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+            	air_air_combat_training_3
+            }
+            cost = 250
             ai_will_do = {
                 factor = 0
             }
