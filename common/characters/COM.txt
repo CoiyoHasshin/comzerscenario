@@ -14,7 +14,7 @@ characters = {
                 always = yes
             }
             traits = {
-                prince_of_terror
+                Minister_of_the_Interior
             }
             cost = 150
             ai_will_do = {
@@ -36,9 +36,12 @@ characters = {
                 original_tag = COM
                 always = yes
             }
+            available = {
+                has_completed_focus = newfocus_51
+            }
             traits = {
-                	democratic_reformer
-                    ideological_crusader
+                Kleinian_Prime_Minister
+                democratic_reformer
             }
             cost = 150
             ai_will_do = {
@@ -60,8 +63,11 @@ characters = {
                 original_tag = COM
                 always = yes
             }
+            available = {
+                has_completed_focus = newfocus_50
+            }
             traits = {
-                gifted_shipping_magnate  
+                Alzanian_Prime_Minister
             }
             cost = 150
             ai_will_do = {
@@ -176,9 +182,14 @@ characters = {
                 original_tag = COM
                 always = yes
             }
+            available = {
+                has_completed_focus = newfocus_4
+				not = {
+					has_completed_focus = newfocus_9
+				}
+            }
             traits = {
-            	editor
-             	lieutenant_of_industry   
+            	Comzerian_Prime_Minister
             }
             cost = 200
             ai_will_do = {
@@ -849,6 +860,110 @@ characters = {
             	air_air_combat_training_3
             }
             cost = 250
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Peter_Khirookiski = {
+        name = idea_Peter_Khirookiski
+        portraits = {
+            army = {
+                small=GFX_idea_Peter_Khirookiski
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Peter_Khirookiski
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            available = {
+                has_completed_focus = newfocus_52
+            }
+            traits = {
+                Peterian_Prime_Minister
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Korobka_Becsell = {
+        name = idea_Korobka_Becsell
+        portraits = {
+            army = {
+                small=GFX_idea_Korobka_Becsell
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Korobka_Becsell
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            available = {
+                has_completed_focus = newfocus_9
+            }
+            traits = {
+                korobkast_Prime_Minister
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Kardiya_Shynuie = {
+        name = idea_Kardiya_Shynuie
+        portraits = {
+            army = {
+                small=GFX_idea_Kardiya_Shynuie
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Kardiya_Shynuie
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            available = {
+                has_completed_focus = newfocus_7
+            }
+            traits = {
+                Katinakist_Prime_Minister
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Dmitry_Kolganov2 = {
+        name = idea_Dmitry_Kolganov2
+        portraits = {
+            army = {
+                small=GFX_idea_Dmitry_Kolganov2
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Dmitry_Kolganov2
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            available = {
+                has_completed_focus = newfocus_3
+            }
+            traits = {
+                Domitrian_Prime_Minister
+            }
+            cost = 150
             ai_will_do = {
                 factor = 0
             }

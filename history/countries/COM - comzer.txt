@@ -65,7 +65,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		reluctant_interventionist defeatist
 	}
 }
 
@@ -76,7 +75,6 @@ create_country_leader = {
 	expire = "1977.6.1"
 	ideology = fascism_ideology
 	traits = {
-		autocratic_imperialist
 	}
 }
 
@@ -87,7 +85,6 @@ create_country_leader = {
 	expire = "1988.5.1"
 	ideology = marxism
 	traits = {
-		triumphant_revolutionary
 	}
 }
 
@@ -98,7 +95,6 @@ create_country_leader = {
 	expire = "1949.1.1"
 	ideology = moderatism
 	traits = {
-		dealbroker
 	}
 }
 
@@ -109,7 +105,6 @@ create_country_leader = {
 	expire = "1999.2.1"
 	ideology = bigstatism
 	traits = {
-		great_war_hero dictator
 	}
 }
 
@@ -120,7 +115,6 @@ create_country_leader = {
 	expire = "2000.1.1"
 	ideology = Unionism
 	traits = {
-		militant_socialist
 	}
 }
 
@@ -131,7 +125,6 @@ create_country_leader = {
 	expire = "2000.3.1"
 	ideology = conservatives
 	traits = {
-	conservative_grandee
 	}
 }
 
@@ -142,7 +135,6 @@ create_country_leader = {
 	expire = "2000.1.2"
 	ideology = Newrevolism
 	traits = {
-		el_jefe_maximo
 	}
 }
 
@@ -155,6 +147,10 @@ recruit_character = idea_fullwave_authentic
 recruit_character = idea_shetz_mcqueen
 recruit_character = idea_Raiser_Yoshihikopf
 recruit_character = idea_Coiyr_Comzer
+recruit_character = idea_Peter_Khirookiski
+recruit_character = idea_Korobka_Becsell
+recruit_character = idea_Kardiya_Shynuie
+recruit_character = idea_Dmitry_Kolganov2
 
 #理論家
 recruit_character = idea_Dominik_Elert
