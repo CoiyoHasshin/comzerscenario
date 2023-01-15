@@ -15,8 +15,6 @@ country_event = {
         add_political_power = -20
         add_country_leader_trait = unpopular_president
     }
-}
-	}
 
     option = { # OptionB
         name = 果たしてそうして居られるのはいつまでだろうな？
