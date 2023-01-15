@@ -42,7 +42,10 @@ focus_tree = {
 		x = 34
 		y = 1
 			completion_reward = {
-
+				country_event = mod.1
+			}
+		}
+	}
 }
 
 	}
