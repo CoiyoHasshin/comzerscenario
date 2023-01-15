@@ -8,9 +8,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Kleinian_Prime_Minister = {
         random = no
         sprite = 1
@@ -20,9 +17,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Alzanian_Prime_Minister = {
         random = no
         sprite = 1
@@ -37,9 +31,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Peterian_Prime_Minister = {
         random = no
         sprite = 1
@@ -51,9 +42,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Comzerian_Prime_Minister = {
         random = no
         sprite = 1
@@ -65,9 +53,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     korobkast_Prime_Minister = {
         random = no
         sprite = 1
@@ -78,9 +63,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Katinakist_Prime_Minister = {
         random = no
         sprite = 1
@@ -93,9 +75,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Domitrian_Prime_Minister = {
         random = no
         sprite = 1
@@ -108,9 +87,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Alexeyevnian_Prime_Minister = {
         random = no
         sprite = 1
@@ -124,9 +100,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Chief_Cabinet_Secretary = {
         random = no
         sprite = 1
@@ -138,9 +111,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Minister_of_Justice = {
         random = no
         sprite = 1
@@ -153,9 +123,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     Inspector_General_of_Defense = {
         random = no
         sprite = 1
@@ -169,9 +136,6 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
     unpopular_president = {
         random = no
         sprite = 1
@@ -182,10 +146,7 @@ leader_traits = {
             base = 2
         }
     }
-}
-
-leader_traits = {
-    national_leader = {
+    national_leaderD = {
         random = no
         sprite = 1
         political_power_factor = 0.1
