@@ -16,8 +16,6 @@ country_event = {
 
     option = { # OptionB
         name = 果たしてそうして居られるのはいつまでだろうな？
-        modifiers = {
-            political_power_factor = -50
-        }
+        add_political_power = -50
     }
 }
