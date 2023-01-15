@@ -16,5 +16,8 @@ country_event = {
 
     option = { # OptionB
         name = 果たしてそうして居られるのはいつまでだろうな？
+        modifiers = {
+            stability_weekly_factor = -0.02
+        }
     }
 }
