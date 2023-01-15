@@ -16,4 +16,5 @@ country_event = {
 
     option = { # OptionB
         name = 果たしてそうして居られるのはいつまでだろうな？
+    }
 }
