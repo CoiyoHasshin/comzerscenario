@@ -1,0 +1,19 @@
+add_namespace = mod
+# A
+country_event = {
+    id = mod.2
+    title = mod.2.t
+    desc = mod.2.d
+    picture = GFX_event_test
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = { # OptionA
+		name = 大統領、万歳！
+	}
+
+    option = { # OptionB
+        name = 果たしてそうして居られるのはいつまでだろうな？
+}
