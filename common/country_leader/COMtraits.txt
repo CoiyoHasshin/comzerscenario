@@ -3,6 +3,7 @@ leader_traits = {
         random = no
         sprite = 1
         stability_factor = 0.05
+        war_support_weekly = 0.05
         ai_will_do = {
             base = 2
         }
@@ -102,6 +103,68 @@ leader_traits = {
         war_support_weekly = 0.01
         generate_wargoal_tension = -0.5
         conscription_factor = 0.03
+        offence	= +0.1
+        ai_will_do = {
+            base = 2
+        }
+    }
+}
+
+leader_traits = {
+    Alexeyevnian_Prime_Minister = {
+        random = no
+        sprite = 1
+        stability_weekly = 0.05
+        war_support_factor = 0.2
+        consumer_goods_factor = -0.05
+        defence	= +0.1
+        country_resource_cost_oil = 1
+        country_resource_cost_oil = -0.1
+        ai_will_do = {
+            base = 2
+        }
+    }
+}
+
+leader_traits = {
+    Chief_Cabinet_Secretary = {
+        random = no
+        sprite = 1
+        stability_factor = 0.05
+        political_power_factor = -0.01
+        political_power_factor = -0.2
+        justify_war_goal_time = 0.1
+        ai_will_do = {
+            base = 2
+        }
+    }
+}
+
+leader_traits = {
+    Minister_of_Justice = {
+        random = no
+        sprite = 1
+        stability_factor = +0.05
+        neutrality_acceptance = +55
+        fascism_acceptance= -50
+        statism_acceptance = -90
+        consumer_goods_factor = -0.5
+        ai_will_do = {
+            base = 2
+        }
+    }
+}
+
+leader_traits = {
+    Inspector_General_of_Defense = {
+        random = no
+        sprite = 1
+        war_support_weekly_factor = +0.03
+        offence = +0.1
+        army_morale_factor = +0.1
+        max_planning = +0.1
+        experience_gain_army_unit_factor = +0.2
+        training_time_factor = +0.2
         ai_will_do = {
             base = 2
         }

@@ -169,6 +169,9 @@ idea_Korobka_Becsell_desc:0 "社会民主党の腹心"
 idea_Kardiya_Shynuie:0 "カルディヤ・シヌィエ"
 idea_Kardiya_Shynuie_desc:0 "社会民主党の隠し刀"
 idea_Dmitry_Kolganov2:0 "ドミートリー・コルガノフ"
+idea_Aloys_Braunschweig:0 "アロイス・ブラウンシュヴァイク"
+idea_Alexeyevna_Slavanovaya2:0 "アレクセーエヴナ・スラーヴァノヴァヤ"
+idea_Gerlinde_Winternitz:0 "ゲアリンデ・ヴィンターニッツ"
 #理論家
 idea_Dominik_Elert:0 "ドミニク・エレルト"
 idea_Dominik_Elert_desc:0 "核物質理論家"
@@ -205,6 +208,8 @@ idea_Siegmund_Schlegel:0 "ジークムント・シュレーゲル"
 idea_Ulrich_Hofhaimer:0 "ウルリヒ・ホフハイマー"
 idea_Alban_Kallenberg:0 "アルバン・カレンベルク"
 idea_Werner_Altmeyer:0 "ヴェルナー・アルトマイアー"
+#企業
+idea_IIYOKOIYO:0 "いいよ！こいよ！"
 
 ###events-イベントなど###
 mod.1.t:0 "解散総選挙"
@@ -237,10 +242,8 @@ military_headquarters:0 "軍司令部"
 ###内閣###
 Minister_of_the_Interior:0 "内務相"
 Chief_Cabinet_Secretary:0 "内閣官房長官"
-Minister_of_Land:0 "国土相"
 Inspector_General_of_Defense:0 "国防総監"
 Minister_of_Justice:0 "法務相"
-Minister_of_Finance:0 "財務相"
 Minister_of_Labor:0 "労政相"
 
 ###首相###

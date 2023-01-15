@@ -139,18 +139,23 @@ create_country_leader = {
 }
 
 #政治顧問
-recruit_character = idea_laphroaig_benetreit
+##首相
 recruit_character = idea_Klein_Karban
-recruit_character = idea_Alza_Scarlet
-recruit_character = idea_Jorgensen_Henry
-recruit_character = idea_fullwave_authentic
-recruit_character = idea_shetz_mcqueen
-recruit_character = idea_Raiser_Yoshihikopf
 recruit_character = idea_Coiyr_Comzer
 recruit_character = idea_Peter_Khirookiski
 recruit_character = idea_Korobka_Becsell
 recruit_character = idea_Kardiya_Shynuie
 recruit_character = idea_Dmitry_Kolganov2
+recruit_character = idea_Alza_Scarlet
+recruit_character = idea_Alexeyevna_Slavanovaya2
+recruit_character = idea_Jorgensen_Henry
+recruit_character = idea_fullwave_authentic
+recruit_character = idea_shetz_mcqueen
+recruit_character = idea_Raiser_Yoshihikopf
+recruit_character = idea_Aloys_Braunschweig
+recruit_character = idea_laphroaig_benetreit
+recruit_character = idea_Gerlinde_Winternitz
+##閣僚
 
 #理論家
 recruit_character = idea_Dominik_Elert

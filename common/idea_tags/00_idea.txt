@@ -41,23 +41,12 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-
-		ledger = civilian
-
-		cost = 150
-		removal_cost = 0
-	}
-	
-	military_policy = {
-		slot = tank_manufacturer
-		slot = tank_manufacturer
-        slot = naval_manufacturer
+		Slot = tank_manufacturer
 		slot = naval_manufacturer
-        slot = aircraft_manufacturer
 		slot = aircraft_manufacturer
 
 		ledger = civilian
-		
+
 		cost = 150
 		removal_cost = 0
 	}

@@ -110,7 +110,7 @@ characters = {
             idea_token = idea_fullwave_authentic
             allowed = {
                 original_tag = COM
-                always = yes
+                always = no
             }
             traits = {
                 communist_revolutionary
@@ -133,7 +133,7 @@ characters = {
             idea_token = idea_shetz_mcqueen
             allowed = {
                 original_tag = COM
-                always = yes
+                always = no
             }
             traits = {
                 fascist_demagogue
@@ -159,8 +159,7 @@ characters = {
                 always = yes
             }
             traits = {
-            	compassionate_commoner
-                the_banker
+                Minister_of_Justice
             }
             cost = 200
             ai_will_do = {
@@ -962,6 +961,55 @@ characters = {
             }
             traits = {
                 Domitrian_Prime_Minister
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Aloys_Braunschweig = {
+        name = idea_Aloys_Braunschweig
+        portraits = {
+            army = {
+                small=GFX_idea_Aloys_Braunschweig
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Aloys_Braunschweig
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            available = {
+                has_completed_focus = newfocus_3
+            }
+            traits = {
+                Chief_Cabinet_Secretary
+            }
+            cost = 150
+            ai_will_do = {
+                factor = 0
+            }
+        }
+    }
+    idea_Gerlinde_Winternitz = {
+        name = idea_Gerlinde_Winternitz
+        portraits = {
+            army = {
+                small=GFX_idea_Gerlinde_Winternitz
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = idea_Gerlinde_Winternitz
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            traits = {
+                Inspector_General_of_Defense
             }
             cost = 150
             ai_will_do = {

@@ -96,4 +96,18 @@ ideas {
             }
         }
     }
+    industrial_concern = {
+        idea_IIYOKOIYO = {
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+            cost = 100
+            picture = idea_douglas_aircraft_company
+            research_bonus = {
+                industry = 0.10
+            }
+            traits = { construction_company }
+        }
+    }
 }
