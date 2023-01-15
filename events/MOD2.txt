@@ -13,7 +13,7 @@ country_event = {
 	option = { # OptionA
 		name = 大統領、万歳！
         add_political_power = -20
-        add_country_leader_trait = unpopular_president
+        add_country_leader_trait = national_leaderD
     }
 
     option = { # OptionB
