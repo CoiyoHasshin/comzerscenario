@@ -4,7 +4,7 @@ country_event = {
     id = mod.2
     title = mod.2.t
     desc = mod.2.d
-    picture = GFX_event_test
+    picture = GFX_enzetuevent.dds
 
     trigger = {
         tag = COM
