@@ -5,6 +5,8 @@ country_event = {
     title = mod.4.t
     desc = mod.4.d
     picture = GFX_report_event_finnish_letter
+    hidden = yes
+    
     trigger = {
         tag = COM
         date > 1936.9.10
@@ -14,8 +16,6 @@ country_event = {
     }
 
     fire_only_once = yes
-
-    hidden = yes
 
     is_triggered_only = yes
 	
