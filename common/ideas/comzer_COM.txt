@@ -96,6 +96,27 @@ ideas {
             }
         }
     }
+    country = {
+        comzer_com_Promotion_of_public_works_policy = {
+
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+            removal_cost = -1
+            picture = generic_economic_increase
+            modifier = {
+                consumer_goods_factor = 0.2
+                Industrial_capacity_factory = 0.2
+                Industrial_capacity_dockyard = -0.3
+                production_speed_buildings_factor = -0.9
+            }
+        }
+    }
     industrial_concern = {
         idea_IIYOKOIYO = {
             allowed = {

@@ -64,11 +64,13 @@ focus_tree = {
 		y = 2
 			completion_reward = {
 				country_event = mod.3
+				news_event = modnews.1
 				add_popularity = {
     				ideology = revolutionarism
     				popularity = 0.1
 				}
-				news_event = modnews.1
+				remove_ideas = comzer_com_industry_problem
+				add_ideas = comzer_com_Promotion_of_public_works_policy
 
 }
 
