@@ -1,6 +1,6 @@
 spriteTypes = {
     spriteType = {
-        name = "GFX_news_event_024.dds"
+        name = "GFX_news_event_024"
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/news_event_024.dds"
     }
     spriteType = {
@@ -8,7 +8,7 @@ spriteTypes = {
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/report_event_canada_patriation.dds"
     }
     spriteType = {
-        name = "GFX_enzetuevent.dds"
+        name = "GFX_enzetuevent"
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/report_event_communist_leader.dds"
     }
 }
