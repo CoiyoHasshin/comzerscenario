@@ -63,6 +63,12 @@ focus_tree = {
 		x = 11
 		y = 2
 			completion_reward = {
+				country_event = mod.3
+				set_political_party = {
+    				ideology = revolutionarism
+    				popularity = 60
+				}
+}
 
 }
 
