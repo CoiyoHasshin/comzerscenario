@@ -7,7 +7,7 @@ country_event = {
     picture = GFX_report_event_finnish_letter
 
     trigger = {
-        complete_national_focus = newfocus_4
+        has_country_leader_with_trait = national_leaderD
     }
 
     fire_only_once = yes
