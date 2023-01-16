@@ -4,7 +4,7 @@ country_event = {
     id = mod.1
     title = mod.1.t
     desc = mod.1.d
-    picture = GFX_news_event_024.dds
+    picture = GFX_report_event_canada_patriation
 
     fire_only_once = yes
 
