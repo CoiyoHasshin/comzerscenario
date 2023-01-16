@@ -7,7 +7,7 @@ country_event = {
     picture = GFX_report_event_finnish_letter
     trigger = {
         tag = COM
-        date = 1936.9.01
+        date < 1936.9.01
     }
 
     fire_only_once = yes
