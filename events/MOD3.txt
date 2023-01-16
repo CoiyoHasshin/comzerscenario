@@ -1,9 +1,9 @@
 add_namespace = mod
 # A
 country_event = {
-    id = mod.2
-    title = mod.2.t
-    desc = mod.2.d
+    id = mod.3
+    title = mod.3.t
+    desc = mod.3.d
     picture = GFX_report_event_finnish_letter
 
     trigger = {
