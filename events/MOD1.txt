@@ -4,7 +4,7 @@ country_event = {
     id = mod.1
     title = mod.1.t
     desc = mod.1.d
-    picture = GFX_event_test
+    picture = news_event_024.dds
 
     fire_only_once = yes
 
