@@ -66,8 +66,9 @@ focus_tree = {
 				country_event = mod.3
 				add_popularity = {
     				ideology = revolutionarism
-    				popularity = 0.5
+    				popularity = 0.1
 				}
+				news_event = modnews.1
 
 }
 

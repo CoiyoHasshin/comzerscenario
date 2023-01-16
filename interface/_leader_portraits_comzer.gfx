@@ -15,4 +15,8 @@ spriteTypes = {
         name = "GFX_report_event_finnish_letter"
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/report_event_finnish_letter.dds"
     }
+    spriteType = {
+        name = "GFX_news_event_SOV_supreme_soviet_bukharin"
+        textureFile = "C:/Github/comzerscenario/gfx/event_pictures/news_event_SOV_supreme_soviet_bukharin.dds"
+    }
 }
