@@ -113,7 +113,7 @@ ideas {
                 consumer_goods_factor = 0.2
                 Industrial_capacity_factory = 0.2
                 Industrial_capacity_dockyard = -0.3
-                production_speed_buildings_factor = -0.9
+                production_speed_buildings_factor = 0.9
             }
         }
     }
