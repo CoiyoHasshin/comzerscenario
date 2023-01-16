@@ -1,0 +1,29 @@
+add_namespace = mod
+# A
+country_event = {
+    id = mod.4
+    title = mod.4.t
+    desc = mod.4.d
+    picture = GFX_report_event_finnish_letter
+    trigger = {
+        tag = COM
+        date > 1936.9.1
+    }
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    fire_only_once = yes
+
+    is_triggered_only = yes
+	
+	option = { # OptionA
+		name = 今すぐ撤廃しよう
+        remove_ideas = comzer_com_Promotion_of_public_works_policy
+    }
+	option = { # OptionB
+		name = いや、それはできない。
+        add_political_power = -25
+        add_ideas = comzer_com_Largescale_demonstration_by_farmers_petition_committee
+    }
+}
