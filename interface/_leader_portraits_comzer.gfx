@@ -11,4 +11,8 @@ spriteTypes = {
         name = "GFX_report_event_communist_leader"
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/report_event_communist_leader.dds"
     }
+    spriteType = {
+        name = "GFX_report_event_finnish_letter"
+        textureFile = "C:/Github/comzerscenario/gfx/event_pictures/report_event_finnish_letter.dds"
+    }
 }
