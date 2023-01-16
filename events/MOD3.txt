@@ -12,16 +12,11 @@ country_event = {
 
     fire_only_once = yes
 
-    is_triggered_only = no
+    is_triggered_only = yes
 	
 	option = { # OptionA
-		name = 大統領、万歳！
-        add_political_power = -20
-        add_country_leader_trait = unpopular_president
-    }
-
-    option = { # OptionB
-        name = 果たしてそうして居られるのはいつまでだろうな？
-        add_political_power = -50
+		name = 偉大なる指導者、万歳！
+        add_political_power = +10
+        add_country_leader_trait = national_leaderD
     }
 }
