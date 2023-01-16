@@ -45,8 +45,6 @@ focus_tree = {
 				country_event = mod.1
 				remove_ideas = comzer_com_Election_demand
 
-}
-
 	}
 	focus = {
 		id = newfocus_4
@@ -64,10 +62,10 @@ focus_tree = {
 		y = 2
 			completion_reward = {
 				country_event = mod.3
-
-}
-
-}
+				add_popularity = {
+    				ideology = revolutionarism
+    				popularity = 0.5
+				}
 
 	}
 	focus = {
