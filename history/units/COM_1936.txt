@@ -330,7 +330,7 @@ instant_effect = {
 			type = infantry_equipment_1
 			creator = "COM"
 		}
-		requested_factories = 5
+		requested_factories = 1
 		progress = 0.28
 		efficiency = 100
 	}

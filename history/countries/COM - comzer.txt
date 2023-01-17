@@ -231,8 +231,8 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "クリストフ・ヘルツェンバイン"
-	desc = navy_leader_Christof_DESC"
+	name = "Christoph Herzenbein"
+	desc = "navy_leader_Christof_DESC"
 	traits = { }
 	skill = 5
 }
