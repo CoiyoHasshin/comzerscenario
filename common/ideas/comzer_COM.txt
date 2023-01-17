@@ -139,7 +139,7 @@ ideas {
         }
     }
     industrial_concern = {
-        idea_IIYOKOIYO = {
+        idea_Comzer_dac = {
             allowed = {
                 original_tag = COM
                 always = yes
