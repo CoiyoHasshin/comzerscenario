@@ -19,4 +19,8 @@ spriteTypes = {
         name = "GFX_news_event_SOV_supreme_soviet_bukharin"
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/news_event_SOV_supreme_soviet_bukharin.dds"
     }
+    spriteType = {
+        name = "GFX_idea_douglas_aircraft_company"
+        textureFile = "C:/Github/comzerscenario/gfx/event_pictures/idea_douglas_aircraft_company.dds"
+    }
 }
