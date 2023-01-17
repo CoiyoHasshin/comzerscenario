@@ -20,7 +20,7 @@ spriteTypes = {
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/news_event_SOV_supreme_soviet_bukharin.dds"
     }
     spriteType = {
-        name = "GFX_idea_idea_generic_industrial_concern_1"
+        name = "GFX_idea_idea_generic_industrial_concern"
         textureFile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
     }
 }

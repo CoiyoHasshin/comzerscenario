@@ -145,7 +145,7 @@ ideas {
                 always = yes
             }
             cost = 100
-            picture = GFX_idea_idea_generic_industrial_concern_1
+            picture = GFX_idea_idea_generic_industrial_concern
             research_bonus = {
                 industry = 0.10
             }

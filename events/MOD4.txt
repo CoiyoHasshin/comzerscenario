@@ -24,6 +24,7 @@ country_event = {
 	option = { # OptionB
 		name = いや、それはできない。
         add_political_power = -25
+        remove_ides = comzer_com_Promotion_of_public_works_policy
         add_ideas = comzer_com_Largescale_demonstration_by_farmers_petition_committee
     }
 }
