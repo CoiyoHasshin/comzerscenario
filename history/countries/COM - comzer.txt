@@ -230,6 +230,83 @@ create_corps_commander = {
 	skill = 3
 }
 
+create_navy_leader = {
+	name = "クリストフ・ヘルツェンバイン"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 5
+}
+
+create_navy_leader = {
+	name = "フォルクハルト・バルチュ"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "ライムント・ヴァイデンライヒ"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "トーマス・シュリューター"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 4
+}
+
+create_navy_leader = {
+	name = "ジルヴェスター・ヘーゲリヒ"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "ボニファーツ・ヴェルナー"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "エーゴン・ヒルデブラント"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "リーンハルト・フーバー"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "ヤーコプ・テーグリヒスベック"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "アーベル・レームブルック"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "アルフレート・トロスト"
+	desc = navy_leader_Christof_DESC"
+	traits = { }
+	skill = 2
+}
+
 
 #政治顧問
 ##首相
