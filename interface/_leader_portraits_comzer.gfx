@@ -21,6 +21,6 @@ spriteTypes = {
     }
     spriteType = {
         name = "GFX_idea_generic_industrial_concern_1"
-        textureFile = "C:/Github/comzerscenario/gfx/event_pictures/idea_generic_industrial_concern_1.dds"
+        textureFile = "C:/Github/comzerscenario/gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
     }
 }
