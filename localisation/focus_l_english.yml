@@ -181,6 +181,7 @@ idea_Dmitry_Kolganov2:0 "ドミートリー・コルガノフ"
 idea_Aloys_Braunschweig:0 "アロイス・ブラウンシュヴァイク"
 idea_Alexeyevna_Slavanovaya2:0 "アレクセーエヴナ・スラーヴァノヴァヤ"
 idea_Gerlinde_Winternitz:0 "ゲアリンデ・ヴィンターニッツ"
+idea_Leonhard_Hänsch:0 "レオンハルト・ヘンシュ"
 #理論家
 idea_Dominik_Elert:0 "ドミニク・エレルト"
 idea_Dominik_Elert_desc:0 "核物質理論家"
@@ -241,10 +242,10 @@ statism:0 "超国家主義"
 syndicalism:0 "評議会社会主義"
 conservatism:0 "急進的保守主義"
 revolutionarism:0 "社会革命主義"
-Newrevolism_desc:0 "新革命主義"
-conservatives_desc:0 "急進的右派主義"
-Unionism_desc:0 "組合評議会主義"
-bigstatism_desc:0 "超国家主義"
+Newrevolism:0 "新革命主義"
+conservatives:0 "急進的右派主義"
+Unionism:0 "組合評議会主義"
+bigstatism:0 "超国家主義"
 
 ###units-装備など###
 infantry_equipment_1:0 "Kardiya06 ライフル"
@@ -276,6 +277,17 @@ korobkast_Prime_Minister:0 "コロファヤ派の首相"
 Katinakist_Prime_Minister:0 "幹部会派の首相"
 Domitrian_Prime_Minister:0 "軍政派の首相"
 Alexeyevnian_Prime_Minister:0 "改革派の首相"
+
+###特殊閣僚###
+Kleinian_Mini_of_the_interior:0 "クライン派の内務相"
+Alzanian_Mini_of_the_interior:0 "アルザ派の内務相"
+Peterian_Mini_of_the_interior:0 "ピョートル派の内務相"
+Comzerian_Mini_of_the_interior:0 "コイヤール派の内務相"
+korobkast_Mini_of_the_interior:0 "コロファヤ派の内務相"
+Katinakist_Mini_of_the_interior:0 "幹部会派の内務相"
+Domitrian_Mini_of_the_interior:0 "軍政派の内務相"
+Alexeyevnian_Mini_of_the_interior:0 "改革派の内務相"
+
 
 ###その他###
 unpopular_president:0 "不人気な大統領"

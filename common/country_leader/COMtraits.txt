@@ -1,5 +1,5 @@
-leader_traits = {
-    Minister_of_the_Interior = {
+leader_traits = {#特殊閣僚
+    Minister_of_the_Interior = {#内務相汎用
         random = no
         sprite = 1
         stability_factor = 0.05
@@ -8,7 +8,7 @@ leader_traits = {
             base = 2
         }
     }
-    Kleinian_Prime_Minister = {
+    Kleinian_Prime_Minister = {#クライン派の首相
         random = no
         sprite = 1
         consumer_goods_factor = -0.1
@@ -17,7 +17,7 @@ leader_traits = {
             base = 2
         }
     }
-    Alzanian_Prime_Minister = {
+    Alzanian_Prime_Minister = {#アルザ派の首相
         random = no
         sprite = 1
         war_support_weekly_factor = 0.05
@@ -31,7 +31,7 @@ leader_traits = {
             base = 2
         }
     }
-    Peterian_Prime_Minister = {
+    Peterian_Prime_Minister = {#ピョートル派の首相
         random = no
         sprite = 1
         party_popularity_stability_factor = 0.3
@@ -42,7 +42,7 @@ leader_traits = {
             base = 2
         }
     }
-    Comzerian_Prime_Minister = {
+    Comzerian_Prime_Minister = {#コイヤール派の首相
         random = no
         sprite = 1
         political_power_factor = +0.3
@@ -53,7 +53,7 @@ leader_traits = {
             base = 2
         }
     }
-    korobkast_Prime_Minister = {
+    korobkast_Prime_Minister = {#コロファヤ派の首相
         random = no
         sprite = 1
         political_power_factor = +0.2
@@ -63,7 +63,7 @@ leader_traits = {
             base = 2
         }
     }
-    Katinakist_Prime_Minister = {
+    Katinakist_Prime_Minister = {#幹部会派の首相
         random = no
         sprite = 1
         line_change_production_efficiency_factor = 0.5
@@ -75,7 +75,7 @@ leader_traits = {
             base = 2
         }
     }
-    Domitrian_Prime_Minister = {
+    Domitrian_Prime_Minister = {#軍政派の首相
         random = no
         sprite = 1
         stability_weekly = 0.05
@@ -87,7 +87,7 @@ leader_traits = {
             base = 2
         }
     }
-    Alexeyevnian_Prime_Minister = {
+    Alexeyevnian_Prime_Minister = {#改革派の首相
         random = no
         sprite = 1
         stability_weekly = 0.05
@@ -100,7 +100,89 @@ leader_traits = {
             base = 2
         }
     }
-    Chief_Cabinet_Secretary = {
+    Kleinian_Mini_of_the_interior = {#クライン派の内務相
+        random = no
+        sprite = 1
+        drift_defence_factor = 0.05
+        stability_factor = -0.1
+        defensive_war_stability_factor = 0.5
+        offensive_war_stability_factor = -0.5
+        ai_will_do = {
+            base = 2
+        }
+    }
+    Alzanian_Mini_of_the_interior = {アルザ派の内務相
+        random = no
+        sprite = 1
+        monthly_population = 0.01
+        forced_surrender_limit = 0.2
+        improve_relations_maintain_cost_factor = 0.01
+        ai_will_do = {
+            base = 2
+        }
+    }
+    Peterian_Mini_of_the_interior = {ピョートル派の内務相
+        random = no
+        sprite = 1
+        weekly_manpower = 0.01
+        opinion_gain_monthly_factor = 0.05
+        conservatism_acceptance = 0.1
+        ai_will_do = {
+            base = 2
+        }
+    }
+    Comzerian_Mini_of_the_interior = {コイヤール派の内務相
+        random = no
+        sprite = 1
+        communism_acceptance = 0.1
+        political_power_factor = 0.01
+        war_support_factor = 0.15
+        ai_will_do = {
+            base = 2
+        }
+    }
+    korobkast_Mini_of_the_interior = {コロファヤ派の内務相
+        random = no
+        sprite = 1
+        conscription_factor = 0.05
+        non_core_manpower = 0.05
+        improve_relations_maintain_cost_factor = 0.01
+        ai_will_do = {
+            base = 2
+        }
+    }
+    Katinakist_Mini_of_the_interior = {#幹部会派の内務相
+        random = no
+        sprite = 1
+        local_resources_factor = 0.05
+        civil_war_involvement_tension = 0.5
+        political_power_cost = 0.05
+        ai_will_do = {
+            base = 2
+        }
+    }
+    Domitrian_Mini_of_the_interior = {#軍政派の内務相
+        random = no
+        sprite = 1
+        political_power_factor = -0.03
+        offence = 0.05
+        army_attack_factor = 0.05
+        ai_will_do = {
+            base = 2
+        }
+    }
+    Alexeyevnian_Mini_of_the_interior = {#改革派の内務相
+        random = no
+        sprite = 1
+        attrition = 0.01
+        consumer_goods_factor = -0.2
+        party_popularity_stability_factor = 0.1
+        ai_will_do = {
+            base = 2
+        }
+    }
+    #汎用閣僚
+    Chief_Cabinet_Secretary = {#内閣官房長官
         random = no
         sprite = 1
         stability_factor = 0.05
@@ -111,7 +193,7 @@ leader_traits = {
             base = 2
         }
     }
-    Minister_of_Justice = {
+    Minister_of_Justice = {#法務相
         random = no
         sprite = 1
         stability_factor = +0.05
@@ -123,7 +205,7 @@ leader_traits = {
             base = 2
         }
     }
-    Inspector_General_of_Defense = {
+    Inspector_General_of_Defense = {#国防総監
         random = no
         sprite = 1
         war_support_weekly_factor = +0.03
@@ -136,7 +218,8 @@ leader_traits = {
             base = 2
         }
     }
-    unpopular_president = {
+    #イベント用tratis
+    unpopular_president = {#不人気な大統領
         random = no
         sprite = 1
         political_power_factor = -0.01
@@ -146,7 +229,7 @@ leader_traits = {
             base = 2
         }
     }
-    national_leaderD = {
+    national_leaderD = {#国民的指導者
         random = no
         sprite = 1
         political_power_factor = 0.1
