@@ -172,6 +172,8 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
+			completion_reward = {
+				news_event = modnews.2
 
 	}
 	focus = {
