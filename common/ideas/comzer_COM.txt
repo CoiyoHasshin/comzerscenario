@@ -145,7 +145,7 @@ ideas {
                 always = yes
             }
             cost = 100
-            picture = GFX_idea_douglas_aircraft_company
+            picture = idea_douglas_aircraft_company.dds
             research_bonus = {
                 industry = 0.10
             }
