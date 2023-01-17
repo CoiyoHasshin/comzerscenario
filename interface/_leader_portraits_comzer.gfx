@@ -23,4 +23,8 @@ spriteTypes = {
         name = "GFX_idea_idea_generic_industrial_concern"
         textureFile = "gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
     }
+    spriteType = {
+        name = "GFX_news_event_009"
+        textureFile = "gfx/interface/event_pictures/GFX_news_event_009.dds"
+    }
 }
