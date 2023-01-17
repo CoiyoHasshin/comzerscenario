@@ -168,63 +168,63 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "モーリッツ・スポール"
+	name = "Moritz Spörl"
 	desc = "corps_commander_Moritz_Spörl_DESC"
 	traits = { cavalry_leader }
 	skill = 4
 }
 
 create_corps_commander = {
-	name = "フリートヘルム・ブッシュ"
+	name = "Friedhelm Busch"
 	desc = "corps_commander_Friedhelm_Busch_DESC"
 	traits = { infantry_leader }
 	skill = 4
 }
 
 create_corps_commander = {
-	name = "ローランド・ドゥンヴァルト"
+	name = "Roland Dünnwald"
 	desc = "corps_commander_Roland_Dünnwald_DESC"
 	traits = { panzer_expert }
 	skill = 4
 }
 
 create_corps_commander = {
-	name = "ルードルフ・ストゥッツマン"
+	name = "Ludolf Stutzmann"
 	desc = "corps_commander_Ludolf_Stutzmann_DESC"
 	traits = { cavalry_leader }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "ゲーアハルト・シャイデマン"
+	name = "Gerhart Scheidemann"
 	desc = "corps_commander_Gerhart_Scheidemann_DESC"
 	traits = { ambusher }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "ギルベルト・プレル"
+	name = "Gilbert pulel"
 	desc = "corps_commander_Gilbert_DESC"
 	traits = { skirmisher }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "ラウレンツ・アドルフ"
+	name = "Laurenz Adlf"
 	desc = "corps_commander_Laurenz_DESC"
 	traits = { guerilla_fighter }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "フィリベルト・ブレッヒ"
+	name = "Filbelt Blech"
 	desc = "corps_commander_Blech_DESC"
 	traits = { panzer_leader }
 	skill = 3
 }
 
 create_corps_commander = {
-	name = "エッボ・エクスラー"
+	name = "Ebb Oechsler"
 	desc = "corps_commander_Oechsler_DESC"
 	traits = { naval_invader }
 	skill = 3

@@ -29,6 +29,7 @@ country_event = {
             revolutionarism = 30
         }
         complete_national_focus = newfocus_4
+        news_event = modnews.1
 	}
 
     option = { # OptionB
