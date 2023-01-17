@@ -233,7 +233,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "クリストフ・ヘルツェンバイン"
 	desc = navy_leader_Christof_DESC"
-	traits = { }
+	traits = { Chief_Engineer }
 	skill = 5
 }
 
