@@ -7,15 +7,15 @@ units= {
 		task_force = {
 			name = "1st Destroyer Flotilla"
 			location = 1208
-			ship = { name = "RSN CL TestShip" pride_of_the_fleet = yes definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SAR version_name = "Sarawak Test Class" } } }
-			ship = { name = "RSN DD TestShip 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAR } } }
-			ship = { name = "RSN DD TestShip 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SAR } } }
+			ship = { name = "RSN CL TestShip" pride_of_the_fleet = yes definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = COM version_name = "Sarawak Test Class" } } }
+			ship = { name = "RSN DD TestShip 1" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COM } } }
+			ship = { name = "RSN DD TestShip 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COM } } }
 		}
 		task_force = {
 			name = "1st Submarine Flotilla"
 			location = 321
-			ship = { name = "RSN SS TestShip 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAR } } }
-			ship = { name = "RSN SS TestShip 2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SAR } } }
+			ship = { name = "RSN SS TestShip 1" definition = submarine equipment = { submarine_1 = { amount = 1 owner = COM } } }
+			ship = { name = "RSN SS TestShip 2" definition = submarine equipment = { submarine_1 = { amount = 1 owner = COM } } }
 		}
 	}
 }
