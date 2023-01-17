@@ -139,6 +139,98 @@ create_country_leader = {
 	}
 }
 
+create_corps_commander = {
+	name = "ヴォルフガング・ヴィルト"
+	desc = "corps_commander_Wolfgang_Wirth_DESC"
+	traits = { infantry_leader organizer }
+	skill = 5
+}
+
+create_field_marshal = {
+	name = "ヴォルフガング・ヴィルト"
+	desc = "corps_commander_Wolfgang_Wirth_DESC"
+	traits = { infantry_leader organizer }
+	skill = 5
+}
+
+create_field_marshal = {
+	name = "ゴットハルト・エメリヒ・ペーター・フィッシャー"
+	desc = "corps_commander_Gotthard_Emmerich_DESC"
+	traits = { organizer }
+	skill = 5
+}
+
+create_field_marshal = {
+	name = "ブルクハルト・バルトルト・ヴォッケンフース"
+	desc = "corps_commander_Burkhard_DESC"
+	traits = { infantry_expert }
+	skill = 5
+}
+
+create_corps_commander = {
+	name = "モーリッツ・スポール"
+	desc = "corps_commander_Moritz_Spörl_DESC"
+	traits = { cavalry_leader }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "フリートヘルム・ブッシュ"
+	desc = "corps_commander_Friedhelm_Busch_DESC"
+	traits = { infantry_leader }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "ローランド・ドゥンヴァルト"
+	desc = "corps_commander_Roland_Dünnwald_DESC"
+	traits = { panzer_expert }
+	skill = 4
+}
+
+create_corps_commander = {
+	name = "ルードルフ・ストゥッツマン"
+	desc = "corps_commander_Ludolf_Stutzmann_DESC"
+	traits = { cavalry_leader }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "ゲーアハルト・シャイデマン"
+	desc = "corps_commander_Gerhart_Scheidemann_DESC"
+	traits = { ambusher }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "ギルベルト・プレル"
+	desc = "corps_commander_Gilbert_DESC"
+	traits = { skirmisher }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "ラウレンツ・アドルフ"
+	desc = "corps_commander_Laurenz_DESC"
+	traits = { guerilla_fighter }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "フィリベルト・ブレッヒ"
+	desc = "corps_commander_Blech_DESC"
+	traits = { panzer_leader }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "エッボ・エクスラー"
+	desc = "corps_commander_Oechsler_DESC"
+	traits = { naval_invader }
+	skill = 3
+}
+
+
 #政治顧問
 ##首相
 recruit_character = idea_Klein_Karban
