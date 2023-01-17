@@ -1,6 +1,6 @@
 add_namespace = modnews
 # A
-country_event = {
+news_event = {
     id = modnews.1
     title = modnews.1.t
     desc = modnews.1.d
