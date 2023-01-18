@@ -749,7 +749,7 @@ focus_tree = {
 		id = newfocus_56
 		text = COM_Conflict_with_Peter
 		icon = GFX_focus_SOV_purge_zinovyevists
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_51
 		}
@@ -764,7 +764,7 @@ focus_tree = {
 		id = newfocus_55
 		text = COM_Conflict_with_Munonov
 		icon = GFX_focus_mex_exile_calles
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_51
 		}
@@ -775,13 +775,17 @@ focus_tree = {
 		y = 4
 
 	}
+	fo
 	focus = {
 		id = newfocus_53
 		text = COM_Merging_SD_faction
 		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_50
+		}
+		mutually_exclusive = {
+			focus = newfocus_54
 		}
 		x = 39
 		y = 4
@@ -791,9 +795,12 @@ focus_tree = {
 		id = newfocus_54
 		text = COM_Formation_Munonov_school
 		icon = GFX_focus_LAT_banish_clemins
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_50
+		}
+		mutually_exclusive = {
+			focus = newfocus_53
 		}
 		x = 37
 		y = 4
@@ -802,7 +809,7 @@ focus_tree = {
 	focus = {
 		id = newfocus_57
 		text = COM_Formation_of_a_new_social_order
-		icon = GFX_focus_focus_fra_revolution_upmost
+		icon = GFX_focus_generic_women_in_military
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_55
@@ -867,7 +874,7 @@ focus_tree = {
 		id = newfocus_61
 		text = COM_salvation_of_arzanism
 		icon = GFX_focus_POL_consolidate_sanation_government
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_52
 		}
@@ -882,7 +889,7 @@ focus_tree = {
 		id = newfocus_62
 		text = COM_peterian_grand_coalition
 		icon = GFX_focus_POL_complete_april_constitution
-		cost = 10.00
+		cost = 5.00
 		prerequisite = {
 			focus = newfocus_52
 		}
@@ -891,6 +898,31 @@ focus_tree = {
 		}
 		x = 29
 		y = 4
+
+	}
+	focus = {
+		id = newfocus_63
+		text = COM_Inauguration_of_the_D_G_C_C
+		icon = GFX_focus_LIT_free_voldemaras
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_61
+			focus = newfocus_62
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_65
+		text = COM_Securing_after_the_gun
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		cost = 5.00
+		prerequisite = {
+			focus = newfocus_63
+		}
+		x = 30
+		y = 6
 
 	}
 }

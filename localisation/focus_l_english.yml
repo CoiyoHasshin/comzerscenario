@@ -120,6 +120,10 @@
  COM_salvation_of_arzanism_desc:0 "保守党の四巨頭の一人アルザ・スカーレットは異色の政治家でありながら一級の社長である。彼の提唱する資本主義と政治の融合は、新たな層に与えられる救いとなるかもしれない。"
  COM_peterian_grand_coalition:0 "ピョートル派の大連立"
  COM_peterian_grand_coalition_desc:0 "国難はすぐそこまで迫ってきている。そんな時に政治闘争、ましてや党内抗争などにかまけている暇はない。ここは一度妥協して、我々は大連立を組んで政治の安定化を図るべきだ。"
+ COM_Inauguration_of_the_D_G_C_C:0 "民主大連立内閣の発足"
+ COMCOM_Inauguration_of_the_D_G_C_C_desc:0 "我々は同じ党派で対立するのではなく、全国規模での連立が必要である。これには保守党以外に、社会民主党右派や社会党右派も同じ思いであるはずだ。"
+ COM_Securing_after_the_gun:0 "銃後の確保"
+ COM_Securing_after_the_gun_desc:0 "我々は不要な対立を生むべきではなく、また今後のためにも銃後の憂いは無くしておくべきだ。特に不意打ちなど、本当にあってはならない。"
 
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
