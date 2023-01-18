@@ -124,6 +124,8 @@
  COM_Inauguration_of_the_D_G_C_C_desc:0 "我々は同じ党派で対立するのではなく、全国規模での連立が必要である。これには保守党以外に、社会民主党右派や社会党右派も同じ思いであるはずだ。"
  COM_Securing_after_the_gun:0 "銃後の確保"
  COM_Securing_after_the_gun_desc:0 "我々は不要な対立を生むべきではなく、また今後のためにも銃後の憂いは無くしておくべきだ。特に不意打ちなど、本当にあってはならない。"
+ COM_Transformation_of_P_C:0 "進歩資本主義の転換"
+ COM_Transformation_of_P_C_desc:0 "保守主義的すぎてしまえば、周辺国との貿易経済に多大なダメージが生じる。この場合、進歩主義と資本主義を融合させた新たな経済政策を行うことで、カンフル剤となることが可能であるだろう。"
 
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"

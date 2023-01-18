@@ -924,4 +924,17 @@ focus_tree = {
 		y = 6
 
 	}
+	focus = {
+		id = newfocus_64
+		text = COM_Transformation_of_P_C
+		icon = GFX_focus_mex_privatisation
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_53
+			focus = newfocus_54
+		}
+		x = 38
+		y = 5
+
+	}
 }
