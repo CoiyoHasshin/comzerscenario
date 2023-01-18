@@ -110,7 +110,10 @@ characters = {
             idea_token = idea_fullwave_authentic
             allowed = {
                 original_tag = COM
-                always = no
+                always = yes
+            }
+            available = {
+                has_completed_focus = newfocus_14
             }
             traits = {
                 communist_revolutionary
