@@ -767,7 +767,7 @@ focus_tree = {
 		}
 		x = 35
 		y = 4
-		
+
 	}
 	focus = {
 		id = newfocus_53
@@ -778,6 +778,18 @@ focus_tree = {
 			focus = newfocus_50
 		}
 		x = 39
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_54
+		text = COM_Formation_Munonov_school
+		icon = GFX_focus_LAT_banish_clemins
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_50
+		}
+		x = 37
 		y = 4
 
 	}
