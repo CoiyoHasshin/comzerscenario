@@ -767,4 +767,18 @@ focus_tree = {
 		}
 		x = 35
 		y = 4
+		
+	}
+	focus = {
+		id = newfocus_53
+		text = COM_Merging_SD_faction
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_50
+		}
+		x = 39
+		y = 4
+
+	}
 }
