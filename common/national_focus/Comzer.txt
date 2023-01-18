@@ -812,5 +812,55 @@ focus_tree = {
 		y = 5
 
 	}
-	foc
+	focus = {
+		id = newfocus_59
+		text = COM_Invitation_of_the_President
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_3
+		}
+		mutually_exclusive = {
+			focus = newfocus_60
+			focus = newfocus_58
+			focus = newfocus_60
+		}
+		x = 46
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_58
+		text = COM_Insurgency_Suppression_Act
+		icon = GFX_focus_generic_manpower
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_3
+		}
+		mutually_exclusive = {
+			focus = newfocus_59
+			focus = newfocus_59
+			focus = newfocus_60
+		}
+		x = 50
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_60
+		text = COM_The_Rise_of_Young_Officers
+		icon = GFX_focus_POL_sanation_right
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_3
+		}
+		mutually_exclusive = {
+			focus = newfocus_59
+			focus = newfocus_59
+			focus = newfocus_58
+		}
+		x = 42
+		y = 3
+
+	}
 }

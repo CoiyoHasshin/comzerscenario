@@ -120,6 +120,12 @@
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
  COM_Delegation_of_power_to_federal_forces_desc:0 "戦争では負けたものの、連邦軍の活躍は賞賛されるべきだと将校団は主張している。既に国民も軍を支持し始めているため、反逆はまた新たな戦争を生むに違いない。ここは一度英雄たちに政権を渡してみるのも手だろう。"
+ COM_Insurgency_Suppression_Act:0 "反乱分子鎮圧法"
+ COM_Insurgency_Suppression_Act_desc:0 "国内の反乱分子を摘発し、社会的な秩序を維持するために軍隊を動員する必要がある。議会の連中のいうことなど無視すれば良い。"
+ COM_Invitation_of_the_President:0 "国家主席の招聘"
+ COM_Invitation_of_the_President_desc:0 "国の運営のためには一点に強い権力を集め、またその権力を適切に使える人物が必要だ。我らが国家元首たるコイヤール閣下のもと、適性な政治を行えるのである。"
+ COM_The_Rise_of_Young_Officers:0 "青年将校たちの台頭"
+ COM_The_Rise_of_Young_Officers_desc:0 "青年将校団の支持者が増えてきている。議会と軍の二足の草鞋を履く者も現れ、青年将校たちはもはや軍の中に存在する軍となりつつある。彼らの機嫌を取るためにも、青年将校たちに政治的ポストを与えるべきかもしれない。"
 
 
 
