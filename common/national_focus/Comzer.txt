@@ -775,7 +775,6 @@ focus_tree = {
 		y = 4
 
 	}
-	fo
 	focus = {
 		id = newfocus_53
 		text = COM_Merging_SD_faction
