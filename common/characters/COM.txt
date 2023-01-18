@@ -1017,16 +1017,16 @@ characters = {
             }
         }
     }
-    idea_Leonhard_Hänsch = {
-        name = idea_Leonhard_Hänsch
+    idea_Leonhard_Hansch = {
+        name = idea_Leonhard_Hansch
         portraits = {
             army = {
-                small=GFX_idea_Leonhard_Hänsch
+                small=GFX_idea_Leonhard_Hansch
             }
         }
         advisor = {
             slot = political_advisor
-            idea_token = idea_Leonhard_Hänsch
+            idea_token = idea_Leonhard_Hansch
             allowed = {
                 original_tag = COM
                 always = yes
