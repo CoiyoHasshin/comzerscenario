@@ -114,6 +114,8 @@
  COM_Conflict_with_Munonov_desc:0 "前回選挙で大敗した元大統領は、その勢力を縮めながらも未だに権力を保有している。党運営に多大なる影響を及ぼすことは明白で、これを打開するには彼と話し合い、穏便に「退場」してもらうのが相場だろう。"
  COM_Formation_Munonov_school:0 "ムノノフ学派の形成"
  COM_Formation_Munonov_school_desc:0 "ムノノフ・キョースケは大統領としては不適格だったかもしれないが、彼の提唱した保守共和主義はひろく受け入れられるべきだ。彼を中心とした民主主義学派を形成し、全世代を包括する支持母体を形成して我々の支持基盤を固定化しよう。"
+ COM_Formation_of_a_new_social_order:0 "新社会秩序の形成"
+ COM_Formation_of_a_new_social_order_desc:0 "党運営を円滑化した後は国政だ。国内の大問題を一度掃除するため、新社会秩序の形成を掲げるのはいい選択かもしれない。"
 
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
