@@ -863,4 +863,34 @@ focus_tree = {
 		y = 3
 
 	}
+	focus = {
+		id = newfocus_61
+		text = COM_salvation_of_arzanism
+		icon = GFX_focus_POL_consolidate_sanation_government
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_52
+		}
+		mutually_exclusive = {
+			focus = newfocus_62
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_62
+		text = COM_peterian_grand_coalition
+		icon = GFX_focus_POL_complete_april_constitution
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_52
+		}
+		mutually_exclusive = {
+			focus = newfocus_61
+		}
+		x = 29
+		y = 4
+
+	}
 }
