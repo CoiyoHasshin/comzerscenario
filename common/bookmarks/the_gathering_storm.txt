@@ -91,9 +91,9 @@ bookmarks = {
 				comzer_com_army_young
 			}
 			focuses = {
-				COM_return_to_socialism
-				COM_The_rise_of_neoconservatism
-				COM_Delegation_of_power_to_federal_forces
+				newfocus_4
+				newfocus_2
+				newfocus_3
 			}
 		}
 		"COM"={
@@ -106,9 +106,9 @@ bookmarks = {
 				comzer_com_army_young
 			}
 			focuses = {
-				COM_return_to_socialism
-				COM_The_rise_of_neoconservatism
-				COM_Delegation_of_power_to_federal_forces
+				newfocus_4
+				newfocus_2
+				newfocus_3
 			}
 		}
 		"ITA"={
