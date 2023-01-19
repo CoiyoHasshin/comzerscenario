@@ -920,7 +920,10 @@ focus_tree = {
 		prerequisite = {
 			focus = newfocus_63
 		}
-		x = 30
+		mutually_exclusive = {
+			focus = newfocus_66
+		}
+		x = 29
 		y = 6
 
 	}
@@ -935,6 +938,82 @@ focus_tree = {
 		}
 		x = 38
 		y = 5
+
+	}
+	focus = {
+		id = newfocus_66
+		text = COM_First_Cabinet_Reshuffle
+		icon = GFX_focus_eng_the_kings_party
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_63
+		}
+		mutually_exclusive = {
+			focus = newfocus_65
+		}
+		x = 31
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_67
+		text = COM_socialist_suppression_law
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_66
+		}
+		x = 31
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_68
+		text = COM_Deregulation_for_socialists
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_65
+		}
+		x = 29
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_69
+		text = COM_enactment_of_antifascist_laws
+		icon = GFX_goal_generic_major_war
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_67
+		}
+		x = 31
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_70
+		text = COM_openminded_policy
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_68
+		}
+		x = 29
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_71
+		text = COM_Cabinet_crisis
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_69
+			focus = newfocus_70
+		}
+		x = 30
+		y = 9
 
 	}
 }
