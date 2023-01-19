@@ -12,6 +12,8 @@ country_event = {
 
     trigger = {
         has_completed_focus = newfocus_5
+        tag = COM
+        date > 1936.5.01
     }
 	
 	option = { # OptionA
