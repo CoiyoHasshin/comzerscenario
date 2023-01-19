@@ -1096,4 +1096,76 @@ focus_tree = {
 		y = 10
 
 	}
+	focus = {
+		id = newfocus_78
+		text = COM_Joining_forces_rightwingCP
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_58
+		}
+		mutually_exclusive = {
+			focus = newfocus_79
+		}
+		x = 52
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_79
+		text = COM_Unification_New_NP
+		icon = GFX_focus_SOV_the_glory_of_the_red_army_alternative
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_58
+		}
+		mutually_exclusive = {
+			focus = newfocus_78
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_81
+		text = COM_Retrograde_to_semidemocracy
+		icon = GFX_focus_TUR_ratify_the_six_arrows
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_59
+		}
+		mutually_exclusive = {
+			focus = newfocus_80
+		}
+		x = 45
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_80
+		text = COM_Establishment_presidential_system
+		icon = GFX_focus_LAT_renew_kviesis_term
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_59
+		}
+		mutually_exclusive = {
+			focus = newfocus_81
+		}
+		x = 47
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_82
+		text = COM_Spread_innovation
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_60
+		}
+		x = 42
+		y = 5
+
+	}
 }

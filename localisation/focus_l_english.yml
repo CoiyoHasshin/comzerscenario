@@ -160,6 +160,17 @@
  COM_Invitation_of_the_President_desc:0 "国の運営のためには一点に強い権力を集め、またその権力を適切に使える人物が必要だ。我らが国家元首たるコイヤール閣下のもと、適性な政治を行えるのである。"
  COM_The_Rise_of_Young_Officers:0 "青年将校たちの台頭"
  COM_The_Rise_of_Young_Officers_desc:0 "青年将校団の支持者が増えてきている。議会と軍の二足の草鞋を履く者も現れ、青年将校たちはもはや軍の中に存在する軍となりつつある。彼らの機嫌を取るためにも、青年将校たちに政治的ポストを与えるべきかもしれない。"
+ COM_Joining_forces_rightwingCP:0 "保守党右派組織との合流"
+ COM_Joining_forces_rightwingCP_desc:0 "保守党の右派組織は、党から離反し政権を握る連邦軍へ合流するつもりであるとしている。保守党の地盤を切り崩し、より治世を安定させるために、これを利用しない手はない。"
+ COM_Unification_New_NP:0 "新国家党による統一"
+ COM_Unification_New_NP_desc:0 "議会政治など我々の関するところではないが、民衆からの支持を得るためにも新国家党を設置し議会多数派を狙う算段だ。これをうまくいかせるためには、各界との調整が必要だろう"
+ COM_Establishment_presidential_system:0 "国家主席制度の確立"
+ COM_Establishment_presidential_system_desc:0 "国家主席はただ一人による独裁制ではなく、民主集中制による交代制にするべきだ。コイヤール閣下の後続が続きやすいよう、彼には後進を意識してもらう必要もある。"
+ COM_Retrograde_to_semidemocracy:0 "半民主主義への逆行"
+ COM_Retrograde_to_semidemocracy_desc:0 "我々は否定した民主主義を復活させる方向で話が進んでいる。国家主席は軍の管轄となり、議会自体はこれまで通り政党制を敷くつもりらしい。民衆の支持を集めるためにも、これは仕方ないものだろう。"
+ COM_Spread_innovation:0 "イノヴェーティズムの蔓延"
+ COM_Spread_innovation_desc:0 "青年将校たちの支持するイノヴェーティズム(革新科学)は、これから国民にひろく広がるものだ。研究分野への投資や軍内部における研究部門の強化を成すことで、今後の国家運営に大きな貢献をすることとなるだろう。"
+ 
 
 
 
