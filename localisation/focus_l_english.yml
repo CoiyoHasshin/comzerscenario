@@ -126,6 +126,18 @@
  COM_Securing_after_the_gun_desc:0 "我々は不要な対立を生むべきではなく、また今後のためにも銃後の憂いは無くしておくべきだ。特に不意打ちなど、本当にあってはならない。"
  COM_Transformation_of_P_C:0 "進歩資本主義の転換"
  COM_Transformation_of_P_C_desc:0 "保守主義的すぎてしまえば、周辺国との貿易経済に多大なダメージが生じる。この場合、進歩主義と資本主義を融合させた新たな経済政策を行うことで、カンフル剤となることが可能であるだろう。"
+ COM_First_Cabinet_Reshuffle:0 "第一次内閣改造"
+ COM_First_Cabinet_Reshuffle_desc:0 "連立内で体裁を保つためには、現在の内閣を改造する必要があるという報告が上がってきた。我々の勢力を維持するためにも、決断すべきだろう。"
+ COM_socialist_suppression_law:0 "社会主義者鎮圧法"
+ COM_socialist_suppression_law_desc:0 "社会主義者共は昔は良かったかもしれないが、今は国家を妨害するガンに過ぎない。大きくなる前に、腫瘍は切除するべきだろう。"
+ COM_Deregulation_for_socialists:0 "社会主義者への規制緩和"
+ COM_Deregulation_for_socialists_desc:0 "社会主義者たちは規制緩和に向けた闘争を行っている。これまでの歴史を鑑みれば、彼らに対してある程度譲歩することも大事だろう。"
+ COM_enactment_of_antifascist_laws:0 "反ファシスト法の制定"
+ COM_enactment_of_antifascist_laws_desc:0 "社会主義者たちと同じく、この国に蔓延る民族的ファシズムは国の毒となることが予想されている。こちらも同じく、早めに浄化するべきだろう。"
+ COM_openminded_policy:0 "思想の開放政策"
+ COM_openminded_policy_desc:0 "思想は弾圧されるべきではなく、すべて開かれた門戸であるべきだ。改革・開放を推し進め、この国の民主主義を確立させるのである。"
+ COM_Cabinet_crisis:0 "内閣の危機"
+ COM_Cabinet_crisis_desc:0 "大連立内閣にヒビが入り始めている。そろそろ潮時かもしれない。新たな道を模索するため、閣僚の刷新をするべきだろう。"
 
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
