@@ -1016,4 +1016,68 @@ focus_tree = {
 		y = 9
 
 	}
+	focus = {
+		id = newfocus_72
+		text = COM_Strengthening_the_CR
+		icon = GFX_goal_generic_improve_relations
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_71
+		}
+		x = 30
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_75
+		text = COM_economic_conservatism
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_72
+		}
+		x = 30
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_73
+		text = COM_Strengthening_the_CL
+		icon = GFX_goal_generic_dangerous_deal
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_71
+		}
+		mutually_exclusive = {
+			focus = newfocus_72
+			focus = newfocus_74
+		}
+		x = 28
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_76
+		text = COM_Greater_Economic_CoProsperity_Sphere
+		icon = GFX_focus_generic_africa_infrastructure
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_73
+		}
+		x = 28
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_77
+		text = COM_Reconciliation_Conservatism_Socialism
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_74
+		}
+		x = 26
+		y = 11
+
+	}
 }

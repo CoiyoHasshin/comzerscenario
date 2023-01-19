@@ -138,6 +138,18 @@
  COM_openminded_policy_desc:0 "思想は弾圧されるべきではなく、すべて開かれた門戸であるべきだ。改革・開放を推し進め、この国の民主主義を確立させるのである。"
  COM_Cabinet_crisis:0 "内閣の危機"
  COM_Cabinet_crisis_desc:0 "大連立内閣にヒビが入り始めている。そろそろ潮時かもしれない。新たな道を模索するため、閣僚の刷新をするべきだろう。"
+ COM_Strengthening_the_CR:0 "保守党右派の強化"
+ COM_Strengthening_the_CR_desc:0 "保守党右派の権力基盤を固め、この国に保守主義を徹底させるべきだ。"
+ COM_Strengthening_the_CL:0 "保守党左派の強化"
+ COM_Strengthening_the_CL_desc:0 "保守党左派の権力基盤を固め、この国に社会保守主義を徹底させるべきだ。"
+ COM_Conservative_socialist_cabinet:0 "保守=社民内閣"
+ COM_Conservative_socialist_cabinet_desc:0 "保守党と社民党の連立を組むことで、議会における勢力図変動を抑制しよう。"
+ COM_economic_conservatism:0 "経済の保守化"
+ COM_economic_conservatism_desc:0 "経済は保守的であればあるほどよく、社会主義者の提唱する経済の国際化には耳を傾けるべきではないだろう。今すぐにでも法整備を進めるべきだ。"
+ COM_Greater_Economic_CoProsperity_Sphere:0 "広域経済共栄圏"
+ COM_Greater_Economic_CoProsperity_Sphere_desc:0 "社会主義者たちの提唱により、アフリカを終点としたワンロード経済政策の整備が進められている。これであれば、より国家の経済を安定させることができるかもしれない。"
+ COM_Reconciliation_Conservatism_Socialism:0 "保守主義と社会主義の融和"
+ COM_Reconciliation_Conservatism_Socialism_desc:0 "保守主義と社会主義はそれぞれ得手不得手が存在する。今までの対立や垣根を超えた新たな党を作り上げることで、我々はより一層の安定した政治を行うことができるのである。"
 
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
