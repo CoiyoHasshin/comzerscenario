@@ -1080,4 +1080,20 @@ focus_tree = {
 		y = 11
 
 	}
+	focus = {
+		id = newfocus_74
+		text = COM_Conservative_socialist_cabinet
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_71
+		}
+		mutually_exclusive = {
+			focus = newfocus_73
+			focus = newfocus_72
+		}
+		x = 26
+		y = 10
+
+	}
 }
