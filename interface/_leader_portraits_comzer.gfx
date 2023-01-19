@@ -27,4 +27,8 @@ spriteTypes = {
         name = "GFX_news_event_009"
         textureFile = "gfx/interface/event_pictures/GFX_news_event_009.dds"
     }
+    spriteType = {
+        name = "GFX_report_event_gre_megali_conference_signing"
+        textureFile = "gfx/interface/event_pictures/report_event_gre_megali_conference_signing.dds"
+    }
 }
