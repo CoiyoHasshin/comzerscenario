@@ -1222,4 +1222,41 @@ focus_tree = {
 		y = 7
 
 	}
+	focus = {
+		id = newfocus_88
+		text = COM_Welfare_to_Military
+		icon = GFX_goal_continuous_reduce_training_time
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_86
+		}
+		x = 35
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_87
+		text = COM_Enactment_Church_Welfare_Act
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_85
+		}
+		x = 33
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_89
+		text = COM_Ministry_Religious_Issues
+		icon = GFX_focus_por_concordat
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_87
+			focus = newfocus_88
+		}
+		x = 34
+		y = 9
+
+	}
 }

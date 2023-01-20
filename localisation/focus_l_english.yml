@@ -158,6 +158,12 @@
  COM_Reduction_religious_education_desc:0 "教会による軍人への宗教教育は、戦闘に対する大きな足かせになりかねない。行き過ぎた宗教教育よりも、その空いた隙間に戦略を挟みこむことで、より軍隊の精強さを上昇させることができるのだ。"
  COM_Establishment_military_church:0 "軍教会の設置"
  COM_Establishment_military_church_desc:0 "軍隊内における規律の取りまとめのため、連邦軍に新たに軍教会を設置し、教会の統制のもと軍隊の士気上昇やまとまりを硬くするために、教会からの教えを仰ごう。"
+ COM_Welfare_to_Military:0 "福祉を軍事へ"
+ COM_Welfare_to_Military_desc:0 "福祉政策に使われている金は、今後を考えると軍事費に転用したほうがいいだろう。福祉の保護という観点からも、軍事費でそれを代用すれば治安の安定化も招くだろう。"
+ COM_Enactment_Church_Welfare_Act:0 "教会福祉法の制定"
+ COM_Enactment_Church_Welfare_Act_desc:0 "福祉政策を教会団体と合同で行うことで、より幅広い国民を救うことができるだろう。教会との癒着を疑われるかもしれないが、そんなことは些細な問題だろう。"
+ COM_Ministry_Religious_Issues:0 "宗教省の問題"
+ COM_Ministry_Religious_Issues_desc:0 "宗教問題とは得てして尾を引くものだ。宗教省はかつて教会からの圧力で設置されたが、現在は社会主義的観点から廃止或いは民営化が妥当とされている。ともあれ、これを選ぶのは国民だ。"
 
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"
