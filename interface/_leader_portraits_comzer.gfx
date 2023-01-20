@@ -31,4 +31,8 @@ spriteTypes = {
         name = "GFX_report_event_gre_megali_conference_signing"
         textureFile = "gfx/interface/event_pictures/report_event_gre_megali_conference_signing.dds"
     }
+    spriteType = {
+        name = "GFX_focus_renounce_the_treaty_of_triannon"
+        textureFile = "gfx/goals/GFX_focus_renounce_the_treaty_of_triannon.dds"
+    }
 }
