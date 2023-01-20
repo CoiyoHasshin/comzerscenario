@@ -164,6 +164,19 @@
  COM_Enactment_Church_Welfare_Act_desc:0 "福祉政策を教会団体と合同で行うことで、より幅広い国民を救うことができるだろう。教会との癒着を疑われるかもしれないが、そんなことは些細な問題だろう。"
  COM_Ministry_Religious_Issues:0 "宗教省の問題"
  COM_Ministry_Religious_Issues_desc:0 "宗教問題とは得てして尾を引くものだ。宗教省はかつて教会からの圧力で設置されたが、現在は社会主義的観点から廃止或いは民営化が妥当とされている。ともあれ、これを選ぶのは国民だ。"
+ COM_Encourage_secularism:0 "世俗主義の奨励"
+ COM_Encourage_secularism_desc:0 "宗教から距離を置き、一般国民が宗教に関係ない幅広い庇護を行うために世俗主義を公布する。宗教関係者は反対するかもしれないが、多数派を握ればいいだけの話だ。"
+ COM_Revision_educational_guidelines:0 "教育要綱の改正"
+ COM_Revision_educational_guidelines_desc:0 "教育方針を従来の宗教混合型から中道教育型に変更する。これにより、宗教に頼りきりであった倫理科目を政府主導で行えるようになるはずだ。"
+ COM_christian_regiment:0 "クリスチャン連隊"
+ COM_christian_regiment_desc:0 "宗教主義的側面を取り入れ、学校教育及び士官教育に宗教科目を導入し、成績優秀者を集めた補助部隊であるクリスチャン連隊を追加する。これは社会的奉仕活動の一環であり、神のご加護を借りるものとなるだろう。"
+ COM_Establishment_NRD:0 "国家研究部の設置"
+ COM_Establishment_NRD_desc:0 "国家の研究機関は今の所有能とは言い難い。ただそれは理系への投資が足りていなかったからであり、国家独自の研究部門を設置し投資することでより優秀な学生や研究者を育成し、国防やその他分野へ役立てさせるべきだろう。"
+ COM_Reorganization_NBE:0 "全国教育委員会の組織改正"
+ COM_Reorganization_NBE_desc:0 "教育要綱を改正したものの、未だに地方の教育委員会は組織が旧態依然としており、思わしくない。ここで一つ、国家が主導となって全国組織を改正することによって、教育をより広げられることができるかもしれない。"
+ COM_Motion_remove_Minister_Religion:0 "宗教大臣の解任動議"
+ COM_Motion_remove_Minister_Religion_desc:0 "宗教大臣は設置から代々教会主教の世襲によって行われていた。しかし、議会ではこの世襲的閣僚職に反発した議員が提出した解任動議によって紛糾している。これに同調するかしないかによって、今後の我々の進退も極まってくるだろう。"
+
 
  #軍政ルート
  COM_Delegation_of_power_to_federal_forces:0 "連邦軍への政権委任"

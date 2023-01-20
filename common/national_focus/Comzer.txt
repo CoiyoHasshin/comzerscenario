@@ -1237,7 +1237,7 @@ focus_tree = {
 	focus = {
 		id = newfocus_87
 		text = COM_Enactment_Church_Welfare_Act
-		icon = GFX_focus_renounce_the_treaty_of_triannon
+		icon = GFX_focus_hol_the_foundations_of_defense
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_85
@@ -1259,4 +1259,93 @@ focus_tree = {
 		y = 9
 
 	}
+	focus = {
+		id = newfocus_90
+		text = COM_Encourage_secularism
+		icon = GFX_goal_generic_major_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_89
+		}
+		mutually_exclusive = {
+			focus = newfocus_91
+			focus = newfocus_92
+			focus = newfocus_92
+			focus = newfocus_91
+		}
+		x = 32
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_91
+		text = COM_Revision_educational_guidelines
+		icon = GFX_focus_generic_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_89
+		}
+		mutually_exclusive = {
+			focus = newfocus_90
+			focus = newfocus_92
+			focus = newfocus_90
+		}
+		x = 34
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_92
+		text = COM_christian_regiment
+		icon = GFX_focus_SOV_restore_cossack_units
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_89
+		}
+		mutually_exclusive = {
+			focus = newfocus_90
+			focus = newfocus_90
+			focus = newfocus_91
+		}
+		x = 36
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_93
+		text = COM_Establishment_NRD
+		icon = GFX_goal_tfv_generic_tech_sharing
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_90
+		}
+		x = 32
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_94
+		text = COM_Reorganization_NBE
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_91
+		}
+		x = 34
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_95
+		text = COM_Motion_remove_Minister_Religion
+		icon = GFX_focus_POL_complete_april_constitution
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_92
+		}
+		x = 36
+		y = 11
+
+	}
+	
 }
