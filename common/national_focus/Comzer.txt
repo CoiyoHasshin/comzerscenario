@@ -1168,4 +1168,58 @@ focus_tree = {
 		y = 5
 
 	}
+	focus = {
+		id = newfocus_83
+		text = COM_church_support
+		icon = GFX_focus_por_concordat
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_57
+		}
+		mutually_exclusive = {
+			focus = newfocus_84
+		}
+		x = 33
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_84
+		text = COM_Federal_military_support
+		icon = GFX_focus_generic_manpower
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_57
+		}
+		mutually_exclusive = {
+			focus = newfocus_83
+		}
+		x = 35
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_86
+		text = COM_Reduction_religious_education
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_84
+		}
+		x = 35
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_85
+		text = COM_Establishment_military_church
+		icon = GFX_focus_GRE_an_orthodox_state
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_83
+		}
+		x = 33
+		y = 7
+
+	}
 }
