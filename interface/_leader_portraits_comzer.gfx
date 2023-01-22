@@ -20,12 +20,12 @@ spriteTypes = {
         textureFile = "C:/Github/comzerscenario/gfx/event_pictures/news_event_SOV_supreme_soviet_bukharin.dds"
     }
     spriteType = {
-        name = "GFX_idea_idea_generic_industrial_concern"
-        textureFile = "C:/Github/comzerscenario/gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
-    }
-    spriteType = {
         name = "GFX_news_event_009"
         textureFile = "C:/Github/comzerscenario/gfx/interface/event_pictures/GFX_news_event_009.dds"
+    }
+    spriteType = {
+        name = "GFX_Ideology_Drift_Defence"
+        textureFile = "C:/Github/comzerscenario/gfx/gfx/interface/ideas/POL_Ideology_Drift_Defence.dds"
     }
     spriteType = {
         name = "GFX_report_event_gre_megali_conference_signing"
@@ -36,7 +36,11 @@ spriteTypes = {
         textureFile = "C:/Github/comzerscenario/gfx/goals/GFX_focus_renounce_the_treaty_of_triannon.dds"
     }
     spriteType = {
-        name = "COM_Ideology_Drift_Defence"
+        name = "GFX_POL_Ideology_Drift_Defence"
         textureFile = "C:/Github/comzerscenario/gfx/gfx/interface/ideas/POL_Ideology_Drift_Defence.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_idea_generic_industrial_concern"
+        textureFile = "C:/Github/comzerscenario/gfx/interface/ideas/idea_generic_industrial_concern_1.dds"
     }
 }

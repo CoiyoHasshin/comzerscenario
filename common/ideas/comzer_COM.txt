@@ -171,7 +171,7 @@ ideas {
                 always = no
             }
             removal_cost = -1
-            picture = POL_Ideology_Drift_Defence
+            picture = GFX_Ideology_Drift_Defence
             modifier = {
                 stability_weekly = -0.05
                 political_power_factor = -0.15
