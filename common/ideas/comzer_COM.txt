@@ -150,7 +150,7 @@ ideas {
                 always = no
             }
             removal_cost = -1
-            picture = idea_generic_flexible_foreign_policy
+            picture = generic_goods_red_bonus
             modifier = {
                 consumer_goods_factor = 0.5
                 conversion_cost_mil_to_civ_factor = -0.5
