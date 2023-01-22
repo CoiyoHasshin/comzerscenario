@@ -39,6 +39,7 @@ add_ideas = {
 	comzer_com_army_young
 	comzer_com_Election_demand
 	comzer_com_Acceleration_of_Zaibatsu_Economy
+	comzer_com_lack_of_leadership
 }
 
 set_politics = {
