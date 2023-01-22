@@ -138,6 +138,27 @@ ideas {
             }
         }
     }
+    country = {
+        comzer_com_Acceleration_of_Zaibatsu_Economy = {
+
+            allowed = {
+                original_tag = COM
+                always = yes
+            }
+
+            allowed_civil_war = {
+                always = no
+            }
+            removal_cost = -1
+            picture = idea_generic_flexible_foreign_policy
+            modifier = {
+                consumer_goods_factor = 0.5
+                conversion_cost_mil_to_civ_factor = -0.5
+                line_change_production_efficiency_factor = -0.2
+                politic_power_gain = 0.2
+            }
+        }
+    }
     industrial_concern = {
         idea_Comzer_dac = {
             allowed = {

@@ -38,6 +38,7 @@ add_ideas = {
 	comzer_com_army_floo
 	comzer_com_army_young
 	comzer_com_Election_demand
+	comzer_com_Acceleration_of_Zaibatsu_Economy
 }
 
 set_politics = {
