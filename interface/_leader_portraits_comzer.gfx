@@ -35,4 +35,8 @@ spriteTypes = {
         name = "GFX_focus_renounce_the_treaty_of_triannon"
         textureFile = "gfx/goals/GFX_focus_renounce_the_treaty_of_triannon.dds"
     }
+    spriteType = {
+        name = "COM_Ideology_Drift_Defence"
+        textureFile = "gfx/gfx/interface/ideas/POL_Ideology_Drift_Defence.dds"
+    }
 }
