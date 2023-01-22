@@ -199,7 +199,13 @@
  COM_Spread_innovation_desc:0 "青年将校たちの支持するイノヴェーティズム(革新科学)は、これから国民にひろく広がるものだ。研究分野への投資や軍内部における研究部門の強化を成すことで、今後の国家運営に大きな貢献をすることとなるだろう。"
  
 
-
+#政策NF
+COM_Passage_RPWLaw:0 "改正公共事業法の可決"
+COM_Passage_RPWLaw_desc:0 "現在の公共事業法は旧体制的な側面が強く、現実に即していない。これを改正し、時代に沿った公共事業法を作成することで、国内経済の発展をより促進させることができるはずだ。"
+COM_Reducing_influence_Zaibatsu:0 "財閥の影響力削減"
+COM_Reducing_influence_Zaibatsu_desc:0 "財閥は国家におけるガンになりかねない。だが彼らは力を持ちすぎており、早急に解体を促すことはできないだろう。ならばこちらも搦め手を使うまでだ。"
+COM_Increased_influence_Zaibatsu:0 "財閥の影響力増加"
+COM_Increased_influence_Zaibatsu_desc:0 "財閥は国家経済の柱となっており、これらを無視することはできない。ならば彼らと歩調を合わせ、国家の財政をより強固にするべきだろう。内閣の財務担当も同じように進言している。"
 
 
 ###country_leader-国家指導者や閣僚###

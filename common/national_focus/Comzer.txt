@@ -135,7 +135,7 @@ focus_tree = {
 		id = newfocus_16
 		text = COM_revolutionary_resurgence
 		icon = GFX_goal_generic_war_with_comintern
-		cost = 5.00
+		cost = 20.00
 		prerequisite = {
 			focus = newfocus_14
 		}
@@ -1347,5 +1347,43 @@ focus_tree = {
 		y = 11
 
 	}
-	
+	focus = {
+		id = newfocus_96
+		text = COM_Passage_RPWLaw
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		x = 61
+		y = 0
+
+	}
+	focus = {
+		id = newfocus_97
+		text = COM_Reducing_influence_Zaibatsu
+		icon = GFX_focus_LAT_suspend_constitution_of_latvia
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_96
+		}
+		mutually_exclusive = {
+			focus = newfocus_98
+		}
+		x = 63
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_98
+		text = COM_Increased_influence_Zaibatsu
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_96
+		}
+		mutually_exclusive = {
+			focus = newfocus_97
+		}
+		x = 59
+		y = 1
+
+	}
 }
