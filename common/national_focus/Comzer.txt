@@ -1386,4 +1386,76 @@ focus_tree = {
 		y = 1
 
 	}
+	focus = {
+		id = newfocus_99
+		text = COM_Take_control_bank
+		icon = GFX_focus_generic_self_management
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_97
+		}
+		x = 63
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_100
+		text = COM_Delegation_State_Finances
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_98
+		}
+		x = 59
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_102
+		text = COM_Consignment_national_industry
+		icon = GFX_focus_generic_tungsten
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_100
+		}
+		x = 59
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_104
+		text = COM_Formation_national_conglomerates
+		icon = GFX_goal_continuous_increase_nu
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_102
+		}
+		x = 59
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_101
+		text = COM_Establishment_central_bank
+		icon = GFX_focus_generic_industry_3
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_99
+		}
+		x = 63
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_103
+		text = COM_independent_policy
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_101
+		}
+		x = 63
+		y = 4
+
+	}
 }
